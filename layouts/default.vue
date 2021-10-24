@@ -1,6 +1,6 @@
 <template>
 
-        <SignUp />
+        <HomePage />
         
 
 </template>
