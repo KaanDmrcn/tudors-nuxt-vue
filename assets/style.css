@@ -1,28 +1,81 @@
+.hazirSablonlar-15 .trow * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
-.hazirSablonlar-15 .trow * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
-     
-	.hazirSablonlar-15 .trow .img-responsive { min-width: 100%; max-width: 100%; }
-    
-	.hazirSablonlar-15 .trow:after { clear: both; display: table; content: ""; }
-    
-	.hazirSablonlar-15 .trow { margin-left: -5px; margin-right: -5px; }
-    
-	.hazirSablonlar-15 .trow .tcol { float: left; position: relative; min-height: 1px; padding-bottom: 5%; padding-right: 5px; padding-left: 5px;}
-	
-	.hazirSablonlar-15 .trow .tcol-lg-3 { width: 25%; }
-	
-	.hazirSablonlar-15 .trow .tcol-lg-4 { width: 33.3%; }
-	
-    .hazirSablonlar-15 .trow .tcol-lg-6 { width: 50%; }
-	
-    .hazirSablonlar-15 .trow .tcol-lg-12 { width: 100%; }
-	
-	.hazirSablonlar-15 .promobanner { position: initial; overflow: hidden;  font-family: 'Futura PT Demi';}
-	
-	.hazirSablonlar-15 .promobanner .btn-zoom-1 {font-size: 17px; color: #ffffff; padding: 3px 15px 3px 15px; position: absolute; text-shadow: 0px 0px 1px black; bottom: 21%;border-radius: 1.5px; border: 1px solid #fff; }
-	.hazirSablonlar-15 .promobanner .btn-zoom-2 {font-weight: 400; font-size: 30px;position: absolute; bottom: 29%;color: #fff;text-shadow: 0px 0px 1.5px black;}
+.hazirSablonlar-15 .trow .img-responsive {
+    min-width: 100%;
+    max-width: 100%;
+}
 
-.fa,.fab,.fal,.far,.fas {
+.hazirSablonlar-15 .trow:after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.hazirSablonlar-15 .trow {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.hazirSablonlar-15 .trow .tcol {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-bottom: 5%;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.hazirSablonlar-15 .trow .tcol-lg-3 {
+    width: 25%;
+}
+
+.hazirSablonlar-15 .trow .tcol-lg-4 {
+    width: 33.3%;
+}
+
+.hazirSablonlar-15 .trow .tcol-lg-6 {
+    width: 50%;
+}
+
+.hazirSablonlar-15 .trow .tcol-lg-12 {
+    width: 100%;
+}
+
+.hazirSablonlar-15 .promobanner {
+    position: initial;
+    overflow: hidden;
+    font-family: 'Futura PT Demi';
+}
+
+.hazirSablonlar-15 .promobanner .btn-zoom-1 {
+    font-size: 17px;
+    color: #ffffff;
+    padding: 3px 15px 3px 15px;
+    position: absolute;
+    text-shadow: 0px 0px 1px black;
+    bottom: 21%;
+    border-radius: 1.5px;
+    border: 1px solid #fff;
+}
+
+.hazirSablonlar-15 .promobanner .btn-zoom-2 {
+    font-weight: 400;
+    font-size: 30px;
+    position: absolute;
+    bottom: 29%;
+    color: #fff;
+    text-shadow: 0px 0px 1.5px black;
+}
+
+.fa,
+.fab,
+.fal,
+.far,
+.fas {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     display: inline-block;
@@ -123,11 +176,19 @@
     float: right
 }
 
-.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left {
+.fa.fa-pull-left,
+.fab.fa-pull-left,
+.fal.fa-pull-left,
+.far.fa-pull-left,
+.fas.fa-pull-left {
     margin-right: .3em
 }
 
-.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right {
+.fa.fa-pull-right,
+.fab.fa-pull-right,
+.fal.fa-pull-right,
+.far.fa-pull-right,
+.fas.fa-pull-right {
     margin-left: .3em
 }
 
@@ -143,7 +204,6 @@
     0% {
         transform: rotate(0deg)
     }
-
     to {
         transform: rotate(1turn)
     }
@@ -169,13 +229,15 @@
     transform: scaleY(-1)
 }
 
-
-
 .fa-flip-horizontal.fa-flip-vertical {
     transform: scale(-1)
 }
 
-:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-90,:root .fa-rotate-180,:root .fa-rotate-270 {
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical,
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270 {
     -webkit-filter: none;
     filter: none
 }
@@ -189,7 +251,8 @@
     width: 2em
 }
 
-.fa-stack-1x,.fa-stack-2x {
+.fa-stack-1x,
+.fa-stack-2x {
     left: 0;
     position: absolute;
     text-align: center;
@@ -4898,7 +4961,7 @@
 
 .sr-only {
     border: 0;
-    clip: rect(0,0,0,0);
+    clip: rect(0, 0, 0, 0);
     height: 1px;
     margin: -1px;
     overflow: hidden;
@@ -4907,7 +4970,8 @@
     width: 1px
 }
 
-.sr-only-focusable:active,.sr-only-focusable:focus {
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
     clip: auto;
     height: auto;
     margin: 0;
@@ -4916,20 +4980,16 @@
     width: auto
 }
 
-
-
 .fab {
     font-family: FontAwesomeProBrands
 }
-
 
 .fal {
     font-weight: 300
 }
 
-
-
-.fal,.far {
+.fal,
+.far {
     font-family: FontAwesomePro
 }
 
@@ -4937,42 +4997,11 @@
     font-weight: 400
 }
 
-
-
-.fa,.fas {
+.fa,
+.fas {
     font-family: FontAwesomePro;
     font-weight: 900
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .icon-home:before {
     content: "\e900"
@@ -6938,11 +6967,8 @@
     content: "\eaea"
 }
 
-
-
 .lnr {
     font-family: linearicons-free;
-   
     font-style: normal;
     font-weight: 400;
     font-variant: normal;
@@ -7643,25 +7669,25 @@
 
 @media(max-width: 767px) {
     .hidden-xs {
-        display:none!important
+        display: none!important
     }
 }
 
 @media(min-width: 768px) and (max-width:991px) {
     .hidden-sm {
-        display:none!important
+        display: none!important
     }
 }
 
 @media(min-width: 992px) and (max-width:1199px) {
     .hidden-md {
-        display:none!important
+        display: none!important
     }
 }
 
 @media(min-width: 1200px) {
     .hidden-lg {
-        display:none!important
+        display: none!important
     }
 }
 
@@ -7670,14 +7696,72 @@
     margin-left: -5px
 }
 
-.col-xs-1,.col-sm-1,.col-md-1,.col-lg-1,.col-xs-2,.col-sm-2,.col-md-2,.col-lg-2,.col-xs-3,.col-sm-3,.col-md-3,.col-lg-3,.col-xs-4,.col-sm-4,.col-md-4,.col-lg-4,.col-xs-5,.col-sm-5,.col-md-5,.col-lg-5,.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6,.col-xs-7,.col-sm-7,.col-md-7,.col-lg-7,.col-xs-8,.col-sm-8,.col-md-8,.col-lg-8,.col-xs-9,.col-sm-9,.col-md-9,.col-lg-9,.col-xs-10,.col-sm-10,.col-md-10,.col-lg-10,.col-xs-11,.col-sm-11,.col-md-11,.col-lg-11,.col-xs-12,.col-sm-12,.col-md-12,.col-lg-12 {
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
     position: relative;
     min-height: 1px;
     padding-right: 5px;
     padding-left: 5px
 }
 
-.col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12 {
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 {
     float: left
 }
 
@@ -7886,643 +7970,526 @@
 }
 
 @media(min-width: 768px) {
-    .col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12 {
-        float:left
+    .col-sm-1,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12 {
+        float: left
     }
-
     .col-sm-12 {
         width: 100%
     }
-
     .col-sm-11 {
         width: 91.66666667%
     }
-
     .col-sm-10 {
         width: 83.33333333%
     }
-
     .col-sm-9 {
         width: 75%
     }
-
     .col-sm-8 {
         width: 66.66666667%
     }
-
     .col-sm-7 {
         width: 58.33333333%
     }
-
     .col-sm-6 {
         width: 50%
     }
-
     .col-sm-5 {
         width: 41.66666667%
     }
-
     .col-sm-4 {
         width: 33.33333333%
     }
-
     .col-sm-3 {
         width: 25%
     }
-
     .col-sm-2 {
         width: 16.66666667%
     }
-
     .col-sm-1 {
         width: 8.33333333%
     }
-
     .col-sm-pull-12 {
         right: 100%
     }
-
     .col-sm-pull-11 {
         right: 91.66666667%
     }
-
     .col-sm-pull-10 {
         right: 83.33333333%
     }
-
     .col-sm-pull-9 {
         right: 75%
     }
-
     .col-sm-pull-8 {
         right: 66.66666667%
     }
-
     .col-sm-pull-7 {
         right: 58.33333333%
     }
-
     .col-sm-pull-6 {
         right: 50%
     }
-
     .col-sm-pull-5 {
         right: 41.66666667%
     }
-
     .col-sm-pull-4 {
         right: 33.33333333%
     }
-
     .col-sm-pull-3 {
         right: 25%
     }
-
     .col-sm-pull-2 {
         right: 16.66666667%
     }
-
     .col-sm-pull-1 {
         right: 8.33333333%
     }
-
     .col-sm-pull-0 {
         right: auto
     }
-
     .col-sm-push-12 {
         left: 100%
     }
-
     .col-sm-push-11 {
         left: 91.66666667%
     }
-
     .col-sm-push-10 {
         left: 83.33333333%
     }
-
     .col-sm-push-9 {
         left: 75%
     }
-
     .col-sm-push-8 {
         left: 66.66666667%
     }
-
     .col-sm-push-7 {
         left: 58.33333333%
     }
-
     .col-sm-push-6 {
         left: 50%
     }
-
     .col-sm-push-5 {
         left: 41.66666667%
     }
-
     .col-sm-push-4 {
         left: 33.33333333%
     }
-
     .col-sm-push-3 {
         left: 25%
     }
-
     .col-sm-push-2 {
         left: 16.66666667%
     }
-
     .col-sm-push-1 {
         left: 8.33333333%
     }
-
     .col-sm-push-0 {
         left: auto
     }
-
     .col-sm-offset-12 {
         margin-left: 100%
     }
-
     .col-sm-offset-11 {
         margin-left: 91.66666667%
     }
-
     .col-sm-offset-10 {
         margin-left: 83.33333333%
     }
-
     .col-sm-offset-9 {
         margin-left: 75%
     }
-
     .col-sm-offset-8 {
         margin-left: 66.66666667%
     }
-
     .col-sm-offset-7 {
         margin-left: 58.33333333%
     }
-
     .col-sm-offset-6 {
         margin-left: 50%
     }
-
     .col-sm-offset-5 {
         margin-left: 41.66666667%
     }
-
     .col-sm-offset-4 {
         margin-left: 33.33333333%
     }
-
     .col-sm-offset-3 {
         margin-left: 25%
     }
-
     .col-sm-offset-2 {
         margin-left: 16.66666667%
     }
-
     .col-sm-offset-1 {
         margin-left: 8.33333333%
     }
-
     .col-sm-offset-0 {
         margin-left: 0
     }
 }
 
 @media(min-width: 992px) {
-    .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12 {
-        float:left
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+        float: left
     }
-
     .col-md-12 {
         width: 100%
     }
-
     .col-md-11 {
         width: 91.66666667%
     }
-
     .col-md-10 {
         width: 83.33333333%
     }
-
     .col-md-9 {
         width: 75%
     }
-
     .col-md-8 {
         width: 66.66666667%
     }
-
     .col-md-7 {
         width: 58.33333333%
     }
-
     .col-md-6 {
         width: 50%
     }
-
     .col-md-5 {
         width: 41.66666667%
     }
-
     .col-md-4 {
         width: 33.33333333%
     }
-
     .col-md-3 {
         width: 25%
     }
-
     .col-md-2 {
         width: 16.66666667%
     }
-
     .col-md-1 {
         width: 8.33333333%
     }
-
     .col-md-pull-12 {
         right: 100%
     }
-
     .col-md-pull-11 {
         right: 91.66666667%
     }
-
     .col-md-pull-10 {
         right: 83.33333333%
     }
-
     .col-md-pull-9 {
         right: 75%
     }
-
     .col-md-pull-8 {
         right: 66.66666667%
     }
-
     .col-md-pull-7 {
         right: 58.33333333%
     }
-
     .col-md-pull-6 {
         right: 50%
     }
-
     .col-md-pull-5 {
         right: 41.66666667%
     }
-
     .col-md-pull-4 {
         right: 33.33333333%
     }
-
     .col-md-pull-3 {
         right: 25%
     }
-
     .col-md-pull-2 {
         right: 16.66666667%
     }
-
     .col-md-pull-1 {
         right: 8.33333333%
     }
-
     .col-md-pull-0 {
         right: auto
     }
-
     .col-md-push-12 {
         left: 100%
     }
-
     .col-md-push-11 {
         left: 91.66666667%
     }
-
     .col-md-push-10 {
         left: 83.33333333%
     }
-
     .col-md-push-9 {
         left: 75%
     }
-
     .col-md-push-8 {
         left: 66.66666667%
     }
-
     .col-md-push-7 {
         left: 58.33333333%
     }
-
     .col-md-push-6 {
         left: 50%
     }
-
     .col-md-push-5 {
         left: 41.66666667%
     }
-
     .col-md-push-4 {
         left: 33.33333333%
     }
-
     .col-md-push-3 {
         left: 25%
     }
-
     .col-md-push-2 {
         left: 16.66666667%
     }
-
     .col-md-push-1 {
         left: 8.33333333%
     }
-
     .col-md-push-0 {
         left: auto
     }
-
     .col-md-offset-12 {
         margin-left: 100%
     }
-
     .col-md-offset-11 {
         margin-left: 91.66666667%
     }
-
     .col-md-offset-10 {
         margin-left: 83.33333333%
     }
-
     .col-md-offset-9 {
         margin-left: 75%
     }
-
     .col-md-offset-8 {
         margin-left: 66.66666667%
     }
-
     .col-md-offset-7 {
         margin-left: 58.33333333%
     }
-
     .col-md-offset-6 {
         margin-left: 50%
     }
-
     .col-md-offset-5 {
         margin-left: 41.66666667%
     }
-
     .col-md-offset-4 {
         margin-left: 33.33333333%
     }
-
     .col-md-offset-3 {
         margin-left: 25%
     }
-
     .col-md-offset-2 {
         margin-left: 16.66666667%
     }
-
     .col-md-offset-1 {
         margin-left: 8.33333333%
     }
-
     .col-md-offset-0 {
         margin-left: 0
     }
 }
 
 @media(min-width: 1200px) {
-    .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12 {
-        float:left
+    .col-lg-1,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12 {
+        float: left
     }
-
     .col-lg-12 {
         width: 100%
     }
-
     .col-lg-11 {
         width: 91.66666667%
     }
-
     .col-lg-10 {
         width: 83.33333333%
     }
-
     .col-lg-9 {
         width: 75%
     }
-
     .col-lg-8 {
         width: 66.66666667%
     }
-
     .col-lg-7 {
         width: 58.33333333%
     }
-
     .col-lg-6 {
         width: 50%
     }
-
     .col-lg-5 {
         width: 41.66666667%
     }
-
     .col-lg-4 {
         width: 33.33333333%
     }
-
     .col-lg-3 {
         width: 25%
     }
-
     .col-lg-2 {
         width: 16.66666667%
     }
-
     .col-lg-1 {
         width: 8.33333333%
     }
-
     .col-lg-pull-12 {
         right: 100%
     }
-
     .col-lg-pull-11 {
         right: 91.66666667%
     }
-
     .col-lg-pull-10 {
         right: 83.33333333%
     }
-
     .col-lg-pull-9 {
         right: 75%
     }
-
     .col-lg-pull-8 {
         right: 66.66666667%
     }
-
     .col-lg-pull-7 {
         right: 58.33333333%
     }
-
     .col-lg-pull-6 {
         right: 50%
     }
-
     .col-lg-pull-5 {
         right: 41.66666667%
     }
-
     .col-lg-pull-4 {
         right: 33.33333333%
     }
-
     .col-lg-pull-3 {
         right: 25%
     }
-
     .col-lg-pull-2 {
         right: 16.66666667%
     }
-
     .col-lg-pull-1 {
         right: 8.33333333%
     }
-
     .col-lg-pull-0 {
         right: auto
     }
-
     .col-lg-push-12 {
         left: 100%
     }
-
     .col-lg-push-11 {
         left: 91.66666667%
     }
-
     .col-lg-push-10 {
         left: 83.33333333%
     }
-
     .col-lg-push-9 {
         left: 75%
     }
-
     .col-lg-push-8 {
         left: 66.66666667%
     }
-
     .col-lg-push-7 {
         left: 58.33333333%
     }
-
     .col-lg-push-6 {
         left: 50%
     }
-
     .col-lg-push-5 {
         left: 41.66666667%
     }
-
     .col-lg-push-4 {
         left: 33.33333333%
     }
-
     .col-lg-push-3 {
         left: 25%
     }
-
     .col-lg-push-2 {
         left: 16.66666667%
     }
-
     .col-lg-push-1 {
         left: 8.33333333%
     }
-
     .col-lg-push-0 {
         left: auto
     }
-
     .col-lg-offset-12 {
         margin-left: 100%
     }
-
     .col-lg-offset-11 {
         margin-left: 91.66666667%
     }
-
     .col-lg-offset-10 {
         margin-left: 83.33333333%
     }
-
     .col-lg-offset-9 {
         margin-left: 75%
     }
-
     .col-lg-offset-8 {
         margin-left: 66.66666667%
     }
-
     .col-lg-offset-7 {
         margin-left: 58.33333333%
     }
-
     .col-lg-offset-6 {
         margin-left: 50%
     }
-
     .col-lg-offset-5 {
         margin-left: 41.66666667%
     }
-
     .col-lg-offset-4 {
         margin-left: 33.33333333%
     }
-
     .col-lg-offset-3 {
         margin-left: 25%
     }
-
     .col-lg-offset-2 {
         margin-left: 16.66666667%
     }
-
     .col-lg-offset-1 {
         margin-left: 8.33333333%
     }
-
     .col-lg-offset-0 {
         margin-left: 0
     }
 }
 
-.img-responsive,.thumbnail>img,.thumbnail a>img,.carousel-inner>.item>img,.carousel-inner>.item>a>img {
+.img-responsive,
+.thumbnail>img,
+.thumbnail a>img,
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
     max-width: 100%;
     height: auto
 }
 
-
-
-input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button {
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -8539,7 +8506,7 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
 body {
     background: #fff;
     color: #000;
-    font-family: josefin sans,sans-serif!important;
+    font-family: josefin sans, sans-serif!important;
     font-weight: 700;
     margin: 0;
     padding: 0
@@ -8551,7 +8518,9 @@ html {
     box-sizing: border-box!important
 }
 
-*,:before,:after {
+*,
+:before,
+:after {
     -webkit-box-sizing: border-box!important;
     -moz-box-sizing: border-box!important;
     box-sizing: border-box!important
@@ -8570,7 +8539,8 @@ img {
     max-width: 100%
 }
 
-ol,ul {
+ol,
+ul {
     list-style: none
 }
 
@@ -8585,7 +8555,13 @@ h1 h2 h3 h4 h5 h6 {
     font-weight: 400!important
 }
 
-body,td,th,input,textarea,select,a {
+body,
+td,
+th,
+input,
+textarea,
+select,
+a {
     font-size: 12px
 }
 
@@ -8602,9 +8578,6 @@ input[type=text] {
     height: 26px;
     color: #777
 }
-
-
-
 
 input[type=password] {
     border: solid 1px #a9a9a9;
@@ -8626,12 +8599,13 @@ input[type=submit] {
     border: none!important
 }
 
-select,input {
-    font-family: josefin sans,sans-serif!important
+select,
+input {
+    font-family: josefin sans, sans-serif!important
 }
 
 .textarea {
-    font-family: josefin sans,sans-serif!important;
+    font-family: josefin sans, sans-serif!important;
     border: solid 1px #a9a9a9;
     padding: 4px;
     width: 94%;
@@ -8639,18 +8613,18 @@ select,input {
     resize: none;
     color: #777;
     background-color: transparent;
-    transition-duration: .2s,.2s;
-    -webkit-transition-duration: .2s,.2s
+    transition-duration: .2s, .2s;
+    -webkit-transition-duration: .2s, .2s
 }
 
 .textbox {
-    font-family: josefin sans,sans-serif!important;
+    font-family: josefin sans, sans-serif!important;
     color: #666;
     display: block;
     font-size: 14px;
     width: 100%;
-    transition-duration: .2s,.2s;
-    -webkit-transition-duration: .2s,.2s
+    transition-duration: .2s, .2s;
+    -webkit-transition-duration: .2s, .2s
 }
 
 .button {
@@ -8660,14 +8634,14 @@ select,input {
     padding: 4px 5px;
     transition: all .3s ease 0;
     border: none!important;
-    font-family: josefin sans,sans-serif!important;
+    font-family: josefin sans, sans-serif!important;
     text-align: center
 }
 
 .button:hover {
     background-color: #000;
-    transition-duration: .2s,.2s;
-    -webkit-transition-duration: .2s,.2s
+    transition-duration: .2s, .2s;
+    -webkit-transition-duration: .2s, .2s
 }
 
 .selectboxx {
@@ -8679,7 +8653,9 @@ select,input {
     margin-bottom: 4px
 }
 
-.validate,.validateSol,.validateOrta {
+.validate,
+.validateSol,
+.validateOrta {
     position: absolute;
     right: 1.5%;
     top: 0;
@@ -8690,7 +8666,9 @@ select,input {
     padding: 0 10px
 }
 
-.validate .validateOk,.validateSol .validateSolOk,.validateOrta .validateOrtaOk {
+.validate .validateOk,
+.validateSol .validateSolOk,
+.validateOrta .validateOrtaOk {
     background-color: #366f2a;
     position: absolute;
     right: 10px;
@@ -8723,7 +8701,8 @@ button {
     width: 100%
 }
 
-.clearfix:after,.clearfix:before {
+.clearfix:after,
+.clearfix:before {
     content: '';
     clear: both;
     display: block;
@@ -8887,7 +8866,6 @@ button {
 .brandlistselection .selectBox {
     margin-right: 6px;
     display: inline-block;
-
     border-right: 1px solid #e5e5e5;
     padding: 0 10px;
     display: none
@@ -8909,13 +8887,12 @@ button {
     border: none;
     background: #fff;
     border-radius: 5px;
-    font-family: josefin sans,sans-serif!important;
+    font-family: josefin sans, sans-serif!important;
     cursor: pointer;
     padding: 5px
 }
 
 .brandlistselection>label {
-    
     display: inline-block;
     color: #373737;
     font-size: 13px;
@@ -8944,11 +8921,8 @@ button {
     color: #373737;
 }
 
-
-
 .brandlistselection label>input[type=checkbox][checked]+label {
     display: block;
-
 }
 
 #mainHolder_linkFiltreKaldir {
@@ -8989,13 +8963,15 @@ button {
     display: block
 }
 
-.pageNumberContent,.pageBorder {
+.pageNumberContent,
+.pageBorder {
     display: inline-block;
     width: 100%
 }
 
-.pageNumberContent a,.pageBorder a {
-    font-family: abakutlsymsans,sans-serif;
+.pageNumberContent a,
+.pageBorder a {
+    font-family: abakutlsymsans, sans-serif;
     display: inline-block;
     text-align: center;
     padding: 0 5px;
@@ -9008,12 +8984,14 @@ button {
     margin: 0 2px
 }
 
-.pageNumberContent a:hover,.pageBorder a:hover {
+.pageNumberContent a:hover,
+.pageBorder a:hover {
     color: #565656;
     background: #d0d0d0
 }
 
-.pageNumberContent a.SelectedSayfa,.pageBorder a.SelectedSayfa {
+.pageNumberContent a.SelectedSayfa,
+.pageBorder a.SelectedSayfa {
     color: #565656;
     background: #d0d0d0
 }
@@ -9036,7 +9014,9 @@ button {
     margin-bottom: 30px
 }
 
-#divIlgiliUrunler .productModuleItem,.productModuleItem2,.productItem {
+#divIlgiliUrunler .productModuleItem,
+.productModuleItem2,
+.productItem {
     width: 100%;
     position: relative;
     background: #fff;
@@ -9125,7 +9105,7 @@ button {
 .productItem .productPrice {
     display: inline-block;
     margin: 0 auto;
-    font-family: abakutlsymsans,sans-serif
+    font-family: abakutlsymsans, sans-serif
 }
 
 .productItem .discountPrice {
@@ -9148,14 +9128,14 @@ button {
     font-weight: 600
 }
 
-.productItem .regularKdv,.productItem .discountKdv {
+.productItem .regularKdv,
+.productItem .discountKdv {
     display: none
 }
 
 .productItem .regularPrice {
     display: inline-block!important;
     margin-right: 7px;
-    
     margin-top: 2px
 }
 
@@ -9165,7 +9145,6 @@ button {
     line-height: 1;
     font-weight: 400;
     text-decoration: line-through;
-    
 }
 
 .productItem .productMarka {
@@ -9272,7 +9251,6 @@ button {
 .favori {
     display: inline-block;
     z-index: 2;
-    
     position: absolute;
     right: 13px;
     bottom: 99px
@@ -9394,7 +9372,6 @@ button {
     font-size: 25px;
     color: #000;
     line-height: 30px;
-    
     font-weight: 400
 }
 
@@ -9410,7 +9387,7 @@ button {
     top: 100%;
     right: 0;
     bottom: 0;
-    background: rgba(255,255,255,.77);
+    background: rgba(255, 255, 255, .77);
     transition: all .1s ease;
     -webkit-transition: all .1s ease;
     -moz-transition: all .1s ease;
@@ -9543,7 +9520,7 @@ button {
 }
 
 .TukendiIco span {
-    background: rgba(51,51,51,.6);
+    background: rgba(51, 51, 51, .6);
     text-align: center;
     padding: 0;
     line-height: 40px;
@@ -9797,7 +9774,7 @@ button {
 }
 
 .categorydesign * {
-    font-family: josefin sans,sans-serif!important;
+    font-family: josefin sans, sans-serif!important;
     letter-spacing: .5px;
     line-height: 23px;
     color: #000
@@ -9874,7 +9851,9 @@ button {
     margin-bottom: 15px
 }
 
-.newIconDetail,.discountIconDetail,.cargoIconDetail {
+.newIconDetail,
+.discountIconDetail,
+.cargoIconDetail {
     display: none
 }
 
@@ -9883,7 +9862,8 @@ button {
     clear: left
 }
 
-.benzerUrunlerWrapper:before,.benzerUrunlerWrapper:after {
+.benzerUrunlerWrapper:before,
+.benzerUrunlerWrapper:after {
     content: "";
     display: table
 }
@@ -10830,19 +10810,16 @@ button {
 .iletisimLine .Left {
     display: inline-block;
     width: 20%;
-    
 }
 
 .iletisimLine .Center {
     display: inline-block;
     width: 2%;
-    
 }
 
 .iletisimLine .Right {
     display: inline-block;
     width: 40%;
-    
 }
 
 .iletisimbanka {
@@ -11142,7 +11119,9 @@ button {
     float: left
 }
 
-.grid .validate,.validateSol,.validateOrta {
+.grid .validate,
+.validateSol,
+.validateOrta {
     top: -7px
 }
 
@@ -11164,7 +11143,7 @@ button {
 .doFaceBookLogin {
     color: #fff;
     background-color: #3b5998;
-    border-color: rgba(0,0,0,.2);
+    border-color: rgba(0, 0, 0, .2);
     padding: 10px 20px;
     width: 82%;
     cursor: pointer;
@@ -11339,7 +11318,6 @@ button {
 }
 
 .tabListe .tabUst ul li {
-    
     display: inline-block;
     width: 20%;
     border-right: 1px solid #f2f2f2
@@ -11433,8 +11411,6 @@ button {
     background-color: #ededed;
     width: 19%
 }
-
-
 
 .TakRenk1 {
     background-color: #edf4e6
@@ -12340,7 +12316,9 @@ div#fancy_print {
     border-collapse: collapse
 }
 
-.SepetBlockGenelTotal tr:nth-child(1),.SepetBlockGenelTotal tr:nth-child(2),.SepetBlockGenelTotal tr:nth-child(3) {
+.SepetBlockGenelTotal tr:nth-child(1),
+.SepetBlockGenelTotal tr:nth-child(2),
+.SepetBlockGenelTotal tr:nth-child(3) {
     display: none
 }
 
@@ -12396,7 +12374,8 @@ div#fancy_print {
     color: #fff
 }
 
-.headerContent,.ticiContainer {
+.headerContent,
+.ticiContainer {
     clear: both;
     max-width: 1366px;
     margin: 0 auto;
@@ -12454,14 +12433,18 @@ div#fancy_print {
     width: 100%
 }
 
-.userMail input,.userSms input,.userSozlesmeDiv input {
+.userMail input,
+.userSms input,
+.userSozlesmeDiv input {
     display: inline-block;
     vertical-align: top;
     margin-top: 0!important;
     margin-right: 5px
 }
 
-.userMail,.userSms,.userSozlesmeDiv {
+.userMail,
+.userSms,
+.userSozlesmeDiv {
     margin-bottom: 10px
 }
 
@@ -12651,7 +12634,8 @@ div#fancy_print {
     color: #49443f
 }
 
-.ticiContainer:before,.ticiContainer:after {
+.ticiContainer:before,
+.ticiContainer:after {
     content: "";
     display: table
 }
@@ -12662,9 +12646,13 @@ div#fancy_print {
 
 .ticiContainer {
     clear: both;
-    zoom:1}
+    zoom: 1
+}
 
-.headerContent:after,.headerContent:before,.headerContent:after,.headerContent:before {
+.headerContent:after,
+.headerContent:before,
+.headerContent:after,
+.headerContent:before {
     content: "";
     display: table;
     clear: both
@@ -12876,7 +12864,6 @@ div#fancy_print {
 }
 
 .ProductName h1 span:not(#divUrunKodu) {
-   
     width: 100%;
     display: inline-block;
     color: #4c4c4c;
@@ -12886,7 +12873,6 @@ div#fancy_print {
 
 #divUrunKodu {
     display: inline-block;
-   
     color: gray;
     font-size: 12px;
     font-weight: 400;
@@ -12902,7 +12888,6 @@ div#fancy_print {
     font-size: 12px;
     font-weight: 400;
     position: relative;
-    
     margin-right: 12px
 }
 
@@ -12976,7 +12961,7 @@ body .rating-stars ul>li.star.selected>i.fa {
 }
 
 #divOnyazi * {
-    font-family: josefin sans,sans-serif!important;
+    font-family: josefin sans, sans-serif!important;
     display: inline-block;
     color: #4c4c4c;
     font-size: 16px;
@@ -13032,7 +13017,7 @@ body .rating-stars ul>li.star.selected>i.fa {
 
 #pnlFiyatlar {
     float: left;
-    font-family: abakutlsymsans,sans-serif;
+    font-family: abakutlsymsans, sans-serif;
     margin-top: 8px
 }
 
@@ -13458,7 +13443,6 @@ body .rating-stars ul>li.star.selected>i.fa {
     max-width: 100%;
     display: inline-block;
     margin-right: 10px;
-    
 }
 
 #pnlFiyatlar .odemeSecenekHavale {
@@ -13521,7 +13505,6 @@ body .rating-stars ul>li.star.selected>i.fa {
 
 #divUrunEkSecenek .eksecenekLine .left_line {
     display: inline-block;
-    
     font-size: 13px;
     color: gray;
     text-decoration: underline;
@@ -13546,7 +13529,6 @@ body .rating-stars ul>li.star.selected>i.fa {
 
 #divUrunEkSecenek .eksecenekLine .right_line {
     display: inline-block;
-    
     width: 100%
 }
 
@@ -13829,7 +13811,8 @@ body .rating-stars ul>li.star.selected>i.fa {
     text-align: center!important
 }
 
-.RightDetail .riSingle a.riUp,.RightDetail .riSingle a.riDown {
+.RightDetail .riSingle a.riUp,
+.RightDetail .riSingle a.riDown {
     width: 15px!important;
     height: 38px!important;
     position: absolute;
@@ -14000,21 +13983,33 @@ body .rating-stars ul>li.star.selected>i.fa {
     display: inline-block;
     color: #d2d2d2;
     font-size: 24px;
-    
     width: 100%;
     text-align: center;
     margin: 0 0 7px!important
 }
 
-.ProductIcon #divKritikStok,.ProductIcon .UIstekListemeEkle,.ProductIcon .UGelinceHaberVer,.ProductIcon #divTelefonSiparis,.ProductIcon .UFavorilerimeEkle,.ProductIcon #divIndirimliUrun,.ProductIcon .FiyatHaberVer,.ProductIcon #divKargoBedava {
+.ProductIcon #divKritikStok,
+.ProductIcon .UIstekListemeEkle,
+.ProductIcon .UGelinceHaberVer,
+.ProductIcon #divTelefonSiparis,
+.ProductIcon .UFavorilerimeEkle,
+.ProductIcon #divIndirimliUrun,
+.ProductIcon .FiyatHaberVer,
+.ProductIcon #divKargoBedava {
     float: left;
     position: relative;
     width: 100%
 }
 
-.ProductIcon #divKritikStok>a,.ProductIcon .UGelinceHaberVer>a,.ProductIcon #divTelefonSiparis>a,.ProductIcon .UFavorilerimeEkle>a,.ProductIcon .UIstekListemeEkle>a,.ProductIcon #divIndirimliUrun>a,.ProductIcon .FiyatHaberVer>a,.ProductIcon #divKargoBedava>a {
+.ProductIcon #divKritikStok>a,
+.ProductIcon .UGelinceHaberVer>a,
+.ProductIcon #divTelefonSiparis>a,
+.ProductIcon .UFavorilerimeEkle>a,
+.ProductIcon .UIstekListemeEkle>a,
+.ProductIcon #divIndirimliUrun>a,
+.ProductIcon .FiyatHaberVer>a,
+.ProductIcon #divKargoBedava>a {
     display: inline-block;
-    
     width: 100%
 }
 
@@ -14083,7 +14078,9 @@ body .rating-stars ul>li.star.selected>i.fa {
     width: 100%
 }
 
-.ProductIcon2 .YorumYazbtnContent,.ProductIcon2 .TavsiyeEtBtnContent,.ProductIcon2>.hidden-phone {
+.ProductIcon2 .YorumYazbtnContent,
+.ProductIcon2 .TavsiyeEtBtnContent,
+.ProductIcon2>.hidden-phone {
     display: inline-block;
     text-align: center
 }
@@ -14139,7 +14136,9 @@ body .rating-stars ul>li.star.selected>i.fa {
     color: #999
 }
 
-.ProductIcon2 .YorumYazbtnContent a,.ProductIcon2 .TavsiyeEtBtnContent a,.ProductIcon2 .hidden-phone a {
+.ProductIcon2 .YorumYazbtnContent a,
+.ProductIcon2 .TavsiyeEtBtnContent a,
+.ProductIcon2 .hidden-phone a {
     position: relative;
     white-space: nowrap;
     line-height: 40px;
@@ -14193,7 +14192,6 @@ body .rating-stars ul>li.star.selected>i.fa {
 }
 
 .product-social span {
-   
     line-height: 32px;
     display: inline-block;
     color: #000;
@@ -14239,7 +14237,6 @@ body .rating-stars ul>li.star.selected>i.fa {
     position: relative;
     display: inline-block;
     text-align: center;
-    
     margin-right: 10px;
     display: none!important
 }
@@ -14327,7 +14324,9 @@ body .rating-stars ul>li.star.selected>i.fa {
     padding: 5px 0
 }
 
-.TabYorumlar,.TabOdemeSecenekleri,.TabUrunOnerileri {
+.TabYorumlar,
+.TabOdemeSecenekleri,
+.TabUrunOnerileri {
     display: none!important
 }
 
@@ -14384,7 +14383,7 @@ body .rating-stars ul>li.star.selected>i.fa {
 }
 
 .urunTabAlt * {
-    font-family: josefin sans,sans-serif!important;
+    font-family: josefin sans, sans-serif!important;
     line-height: 1.5;
     color: gray;
     font-size: 12px;
@@ -14404,7 +14403,7 @@ body .rating-stars ul>li.star.selected>i.fa {
 }
 
 .urunTabAlt {
-    font-family: josefin sans,sans-serif!important;
+    font-family: josefin sans, sans-serif!important;
     line-height: 15px;
     color: gray;
     font-size: 12px;
@@ -14627,7 +14626,6 @@ body .rating-stars ul>li.star.selected>i.fa {
 }
 
 .appliedFilter.FiltrelemeUrunAdet span {
-    
     font-size: 13px;
     color: #000!important;
     font-weight: 400!important;
@@ -14646,7 +14644,6 @@ body .rating-stars ul>li.star.selected>i.fa {
 }
 
 .sortingContent .appliedFilter {
-    
     background-color: transparent!important;
     height: auto!important;
     display: inline-block!important;
@@ -14724,19 +14721,13 @@ body .rating-stars ul>li.star.selected>i.fa {
     color: #000!important
 }
 
-
-
 .blockSelect a.sort_3.Active {
     border-color: #333
 }
 
-
-
 .blockSelect a.sort_4.Active {
     border-color: #333
 }
-
-
 
 .blockSelect a.sort_hrz.Active {
     border-color: #333
@@ -14868,7 +14859,8 @@ a#linkOncekiSayfa:before {
     background-color: #71034e!important
 }
 
-.userLoginBtn:hover,.userSignBtn:hover {
+.userLoginBtn:hover,
+.userSignBtn:hover {
     background-color: #71034e!important
 }
 
@@ -14887,11 +14879,13 @@ a.YeniAdresEkle:hover {
     color: #fff!important
 }
 
-.faturaAdresBtn:hover,.adresAyniBtn:hover {
+.faturaAdresBtn:hover,
+.adresAyniBtn:hover {
     color: #71034e!important
 }
 
-.faturaAdresBtn.active,.adresAyniBtn.active {
+.faturaAdresBtn.active,
+.adresAyniBtn.active {
     color: #71034e!important
 }
 
@@ -14919,8 +14913,6 @@ a.YeniAdresEkle {
 #divToplamOdeme {
     color: #71034e!important
 }
-
-
 
 .userLoginBtn {
     background-color: #71034e!important
@@ -15149,12 +15141,14 @@ body .ngdialog.ngdialog-theme-default .ngdialog-close {
     top: 5px
 }
 
-.userLoginBtn,.userSignBtn {
+.userLoginBtn,
+.userSignBtn {
     color: #fff;
     background: #000!important
 }
 
-.userLoginBtn:hover,.userSignBtn:hover {
+.userLoginBtn:hover,
+.userSignBtn:hover {
     background: #620717!important
 }
 
@@ -15314,7 +15308,8 @@ body .ngdialog.ngdialog-theme-default .ngdialog-close {
     height: max-content
 }
 
-.InstaGallery .InstaGalleryprev,.InstaGallery .InstaGallerynext {
+.InstaGallery .InstaGalleryprev,
+.InstaGallery .InstaGallerynext {
     width: 30px;
     height: 30px;
     background: #fff;
@@ -15331,11 +15326,13 @@ body .ngdialog.ngdialog-theme-default .ngdialog-close {
     float: right
 }
 
-.InstaGallery .InstaGallerynext span,.InstaGallery .InstaGalleryprev span {
+.InstaGallery .InstaGallerynext span,
+.InstaGallery .InstaGalleryprev span {
     font-size: 25px
 }
 
-.InstaGallery .InstaGalleryprev:hover,.InstaGallery .InstaGallerynext:hover {
+.InstaGallery .InstaGalleryprev:hover,
+.InstaGallery .InstaGallerynext:hover {
     background: #9d0000;
     color: #fff
 }
@@ -15369,7 +15366,8 @@ body .hopi-btn img {
     height: 25px
 }
 
-body .hopi-btn-cta-text,body .hopi-btn-used-campaign {
+body .hopi-btn-cta-text,
+body .hopi-btn-used-campaign {
     font-size: 13px;
     margin-top: 6px
 }
@@ -15390,11 +15388,13 @@ body .hopi-btn-cta-text {
     font-size: 12px!important
 }
 
-.sepetimBody .sozlesmeUyari a,.sepetimBody .OdemeMenu ul li.activeMenu a {
+.sepetimBody .sozlesmeUyari a,
+.sepetimBody .OdemeMenu ul li.activeMenu a {
     font-size: 14px
 }
 
-.sepetimBody .SoslesmeCheck a,.sepetimBody .SoslesmeCheck span {
+.sepetimBody .SoslesmeCheck a,
+.sepetimBody .SoslesmeCheck span {
     font-size: 14px
 }
 
@@ -15429,22 +15429,19 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
 
 @media screen and (min-width: 1025px) {
     .category-vertical-filters.top-filters {
-        padding:0!important;
+        padding: 0!important;
         margin-bottom: 15px!important
     }
-
     .category-vertical-filters.top-filters .panel {
         margin: 0!important;
         padding: 10px 5px;
         background: #f3f3f3
     }
-
     .category-vertical-filters.top-filters .panel .panel-heading {
         padding: 0!important;
         border-radius: 2px;
         border: none!important
     }
-
     .category-vertical-filters.top-filters .panel .panel-heading a {
         float: left;
         width: 100%;
@@ -15457,15 +15454,12 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
         font-size: 12px;
         border: 1px solid #e5e5e5
     }
-
     .category-vertical-filters.top-filters .panel .panel-heading a:after {
         top: 10px!important
     }
-
     .category-vertical-filters.top-filters .list-group.dropdown {
         top: 100%!important
     }
-
     .category-vertical-filters.top-filters .panel.vertical-top-price-filter {
         float: left!important;
         margin-top: 15px!important;
@@ -15473,21 +15467,17 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
         background: 0 0;
         padding: 0
     }
-
     .category-vertical-filters.top-filters .ngrs-range-slider {
         background: #fff!important
     }
-
     .category-vertical-filters.top-filters .ngrs-range-slider .ngrs-runner {
         background: #a5a5a5!important;
         height: 9px;
         margin: 0!important
     }
-
     .category-vertical-filters.top-filters .ngrs-range-slider .ngrs-join {
         background: #810081!important
     }
-
     .category-vertical-filters.top-filters .ngrs-range-slider .ngrs-handle {
         background: #fff!important;
         margin-top: -4px;
@@ -15496,21 +15486,17 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
         border-radius: 100%!important;
         border: 2px solid #810081!important
     }
-
     .category-vertical-filters.top-filters .ngrs-range-slider .ngrs-handle.ngrs-handle-min {
         margin-left: -1px!important
     }
-
     .category-vertical-filters.top-filters .ngrs-range-slider * {
         color: #7d7d7d;
         font-size: 11px;
         font-weight: 400
     }
-
     .category-vertical-filters.top-filters .ngrs-range-slider .ngrs-value {
         line-height: 25px!important
     }
-
     .sortingContent {
         z-index: 10;
         float: right;
@@ -15525,7 +15511,6 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
         display: -o-flex;
         position: static
     }
-
     .sortingContent:before {
         content: "Sıralama Seçiniz";
         float: left;
@@ -15539,7 +15524,6 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
         line-height: 32px;
         text-align: left
     }
-
     .sortingContent:after {
         content: ""!important;
         font-family: fontawesomepro;
@@ -15549,7 +15533,6 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
         line-height: 32px;
         font-size: 16px
     }
-
     .sortingContent li:not(.appliedFilter) {
         float: left;
         display: none;
@@ -15560,15 +15543,12 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
         width: 100%;
         border-top: none
     }
-
     .sortingContent:hover li {
         display: block
     }
-
     .sortingContent li:not(.appliedFilter):hover {
         background: #000
     }
-
     .sortingContent li>a {
         position: relative;
         background-color: #fff!important;
@@ -15581,28 +15561,23 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
         border: none;
         margin-right: 0
     }
-
     .sortingContent li:not(.appliedFilter):hover a {
         background: #000!important;
         color: #fff!important;
         text-decoration: underline
     }
-
     .sortingContent li a span {
         font-weight: 400!important;
         line-height: 35px;
         height: 33px;
         display: block
     }
-
     .sortingContent li a.selected {
         background: #fff!important;
         color: #000!important;
         text-decoration: underline
     }
-
     .appliedFilter.FiltrelemeUrunAdet span {
-        
         font-size: 12px;
         color: #000!important;
         font-weight: 400!important;
@@ -15613,7 +15588,6 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
         letter-spacing: 2px;
         padding-top: 6px
     }
-
     .appliedFilter.FiltrelemeUrunAdet span:after {
         display: none;
         content: 'Bulundu';
@@ -15621,15 +15595,12 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
         margin-left: -4px;
         font-weight: 600
     }
-
     .sortingContent .appliedFilter {
-        
         background-color: #fff!important;
         height: auto!important;
         display: inline-block!important;
         padding: 0!important
     }
-
     .appliedFilter.FiltrelemeUrunAdet {
         background: 0 0!important;
         padding: 0!important;
@@ -15639,11 +15610,9 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
         left: 0;
         top: 0
     }
-
     .sortingContent li .blockSelect {
         display: none
     }
-
     .filterDeleteContent+div+div+li+.sortingContent {
         top: 62px
     }
@@ -15714,7 +15683,6 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
     width: 100%!important;
     padding: 0;
     margin: 0!important;
-   
     display: inline-block;
     background: #fff;
     border-bottom: 1px solid gray
@@ -16054,7 +16022,8 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
     width: 80%!important
 }
 
-.popupBox input[type=password],.popupBox input[type=text] {
+.popupBox input[type=password],
+.popupBox input[type=text] {
     width: 100%!important;
     padding: 0 10px!important;
     margin-bottom: 7px!important;
@@ -16062,7 +16031,8 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
     border: 1px solid #e7e7e7!important
 }
 
-.popupBox input[type=password]:focus,.popupBox input[type=text]:focus {
+.popupBox input[type=password]:focus,
+.popupBox input[type=text]:focus {
     border-color: #000!important
 }
 
@@ -16099,7 +16069,18 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
     margin-bottom: 10px
 }
 
-.Basketstep ul li i,.sepetTitle .st_1,.sepetTitle2 .st_1,.BasketRigth ul li.genelToplam .tut,.sepetTitle2 .st_1:before,.sepetTitle .st_1:before,.TeslimatAdresTittle,.Basketstep ul li.gecti span,#divToplamOdeme,.TeslimatAdresTittle,a.YeniAdresEkle,.Basketstep ul li.onestepsec span {
+.Basketstep ul li i,
+.sepetTitle .st_1,
+.sepetTitle2 .st_1,
+.BasketRigth ul li.genelToplam .tut,
+.sepetTitle2 .st_1:before,
+.sepetTitle .st_1:before,
+.TeslimatAdresTittle,
+.Basketstep ul li.gecti span,
+#divToplamOdeme,
+.TeslimatAdresTittle,
+a.YeniAdresEkle,
+.Basketstep ul li.onestepsec span {
     color: #71034e!important
 }
 
@@ -16259,7 +16240,7 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
     position: absolute;
     cursor: pointer;
     left: 0;
-    background: rgba(17,17,17,.15);
+    background: rgba(17, 17, 17, .15);
     height: 30px;
     width: 28px;
     border-radius: 0 5px 5px 0
@@ -16271,7 +16252,7 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
     position: absolute;
     cursor: pointer;
     right: 0;
-    background: rgba(17,17,17,.15);
+    background: rgba(17, 17, 17, .15);
     height: 30px;
     width: 28px;
     border-radius: 5px 0 0 5px
@@ -16350,7 +16331,6 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
     position: relative;
     min-height: 1px;
     float: left;
-    
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -16366,12 +16346,10 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
 #divSizinIcinOnerdiklerimiz .ProductList .owl-stage-outer {
     position: relative;
     overflow: hidden;
-   
 }
 
 #divSizinIcinOnerdiklerimiz .ProductList .owl-stage {
     position: relative;
-    
 }
 
 #divSizinIcinOnerdiklerimiz .owl-dots {
@@ -16478,7 +16456,7 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
 #divKampanyaBanner .AnasayfaTasarimLine a .AnasayfaTasarimAdi .TasarimTime {
     float: left;
     width: 100%;
-    background: rgba(165,165,165,.5);
+    background: rgba(165, 165, 165, .5);
     position: absolute;
     top: 2px;
     text-align: center
@@ -16490,14 +16468,14 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
     color: #000;
     padding: 0 20px;
     display: inline-block;
-    
     width: 100%;
     height: 35px;
     text-transform: uppercase;
     text-align: right
 }
 
-#header:before,#header:after {
+#header:before,
+#header:after {
     content: "";
     display: table
 }
@@ -16508,7 +16486,8 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
 
 #header {
     clear: both;
-    zoom:1}
+    zoom: 1
+}
 
 #back-to-top {
     position: fixed;
@@ -16607,7 +16586,6 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
     margin-bottom: 7px
 }
 
-
 .mycart .sepetUrunSayisi {
     text-align: center;
     font-size: 11px;
@@ -16638,7 +16616,7 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
 
 .CartProduct {
     width: 302px;
-    font-family: josefin sans,sans-serif;
+    font-family: josefin sans, sans-serif;
     position: absolute;
     top: 100%;
     right: 0;
@@ -16734,7 +16712,6 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
     font-size: 11px;
     color: #000;
     font-weight: 600;
-    
     width: calc(100% - 98px);
     margin-top: 5px
 }
@@ -16855,7 +16832,8 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
     right: 220px
 }
 
-.uyeGirisWelcome,.uyeGirisUyeAdi {
+.uyeGirisWelcome,
+.uyeGirisUyeAdi {
     color: #bababa;
     font-size: 13px;
     float: left;
@@ -16865,7 +16843,10 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
     display: none
 }
 
-.headerUyeOl a,.headerUyeGiris a,.headerHesabim,.headerCikis {
+.headerUyeOl a,
+.headerUyeGiris a,
+.headerHesabim,
+.headerCikis {
     color: #6f6f6f;
     font-size: 11px;
     font-weight: 400;
@@ -16910,19 +16891,22 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
     margin-right: 10px
 }
 
-.headerUyeGiris a:after,.headerHesabim:after {
+.headerUyeGiris a:after,
+.headerHesabim:after {
     content: '&';
     float: right;
     margin: 0 3px
 }
 
-.headerUyeOl a:hover,.headerUyeGiris a:hover,.headerHesabim:hover,.headerCikis:hover {
+.headerUyeOl a:hover,
+.headerUyeGiris a:hover,
+.headerHesabim:hover,
+.headerCikis:hover {
     text-decoration: underline
 }
 
 .welcome li {
     display: inline-block;
-    
 }
 
 .headerSocialConnect {
@@ -17171,7 +17155,6 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
 .navigation .ResimliMenu1>li {
     display: inline-block;
     position: static;
-   
 }
 
 .navigation .ResimliMenu1>li>a {
@@ -17193,7 +17176,6 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
     font-size: 0;
     padding: 0 1px
 }
-
 
 .navigation .ResimliMenu1>li:first-child>a:before {
     content: '\f015';
@@ -17241,7 +17223,7 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
     position: fixed;
     bottom: 0;
     left: 0;
-    background: rgba(0,0,0,.67);
+    background: rgba(0, 0, 0, .67);
     width: 100%;
     height: 100%;
     z-index: 999
@@ -17291,7 +17273,8 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
     width: calc(100% - 30%)
 }
 
-.navigation .altMenu .altMenuler .altmenuSol h4,.altMenu .altMenuler .altmenuSol>span {
+.navigation .altMenu .altMenuler .altmenuSol h4,
+.altMenu .altMenuler .altmenuSol>span {
     display: none
 }
 
@@ -17403,7 +17386,6 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
 .navigation .HeaderMenu2>li {
     display: inline-block;
     position: relative;
-    
 }
 
 .navigation .HeaderMenu2>li>a {
@@ -17423,7 +17405,7 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
     position: absolute;
     left: 0;
     top: 100%;
-    background: rgba(149,149,149,.7);
+    background: rgba(149, 149, 149, .7);
     padding: 0;
     z-index: 3;
     padding: 10px 0
@@ -17453,7 +17435,7 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
     top: 0;
     background: #fff;
     padding: 20px;
-    border-bottom: 6px solid rgba(252,37,156,.6)
+    border-bottom: 6px solid rgba(252, 37, 156, .6)
 }
 
 .navigation .HeaderMenu2>li>ul>li>ul>li>ul {
@@ -17616,7 +17598,8 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
     right: 0
 }
 
-#pnlSlider .flex-direction-nav .flex-prev,#pnlSlider .flex-direction-nav .flex-next {
+#pnlSlider .flex-direction-nav .flex-prev,
+#pnlSlider .flex-direction-nav .flex-next {
     z-index: 99;
     font-size: 0;
     text-align: center;
@@ -17707,7 +17690,6 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
 
 .yanResimliMenuContent .UrunGuruplari .Block_Title {
     display: inline-block!important;
-    
     width: 100%;
     color: #fff;
     background: #ffd400;
@@ -18025,7 +18007,8 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
     border-top: 2px solid #dfdfdf
 }
 
-.footerGenelTutucu:before,.footerGenelTutucu:after {
+.footerGenelTutucu:before,
+.footerGenelTutucu:after {
     content: "";
     display: table
 }
@@ -18256,7 +18239,6 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
 }
 
 .mobilMenuKapat {
-    
     display: inline-block;
     background: #cc1332;
     text-align: center;
@@ -18479,7 +18461,7 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,.43);
+    background: rgba(0, 0, 0, .43);
     z-index: 999;
     transition: all .1s ease;
     -webkit-transition: all .1s ease;
@@ -18511,7 +18493,8 @@ body.sepetimBody .BasketDetail.SiparisNotuContent {
     max-width: 100%
 }
 
-#storeCitys,#searchStore {
+#storeCitys,
+#searchStore {
     margin-top: 10px!important
 }
 
@@ -18578,7 +18561,9 @@ p.ui-widget-content {
     font-size: 13px
 }
 
-.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active {
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
     color: #454545!important
 }
 
@@ -18613,16 +18598,16 @@ p.ui-widget-content {
     float: left;
     width: 25%!important;
     height: 50px!important;
-    transition-duration: .2s,.2s;
-    -webkit-transition-duration: .2s,.2s;
+    transition-duration: .2s, .2s;
+    -webkit-transition-duration: .2s, .2s;
     background: #fff!important;
     padding: 0;
     float: left;
     padding: 17px 10px!important;
     margin-bottom: 20px;
     display: block;
-    transition-duration: .2s,.2s;
-    -webkit-transition-duration: .2s,.2s;
+    transition-duration: .2s, .2s;
+    -webkit-transition-duration: .2s, .2s;
     color: #a5a5a5!important;
     font-size: 13px!important;
     padding: 17px 0;
@@ -18654,7 +18639,7 @@ p.ui-widget-content {
     position: fixed;
     right: 0;
     bottom: 0;
-    background: rgba(13,13,13,.8);
+    background: rgba(13, 13, 13, .8);
     width: 89%;
     color: #fff;
     left: 5px;
@@ -18797,8 +18782,6 @@ p.ui-widget-content {
     padding: 0 10px
 }
 
-
-
 .SosyalMedyaBanner .sosiContainer {
     max-width: 686px;
     margin: 0 auto;
@@ -18881,7 +18864,8 @@ p.ui-widget-content {
     margin-bottom: 15px
 }
 
-.iletisimLeft .span,.iletisimRight .span {
+.iletisimLeft .span,
+.iletisimRight .span {
     margin: 0!important;
     padding: 0;
     width: 100%!important;
@@ -19058,7 +19042,7 @@ p.ui-widget-content {
     float: left;
     width: 100%;
     background: #fff;
-    font-family: josefin sans,sans-serif;
+    font-family: josefin sans, sans-serif;
     padding: 35px
 }
 
@@ -19091,7 +19075,7 @@ p.ui-widget-content {
 .hizliBakis_Price {
     color: #000;
     font-size: 14px;
-    font-family: abakutlsymsans,sans-serif;
+    font-family: abakutlsymsans, sans-serif;
     font-weight: 600;
     margin: 15px 0
 }
@@ -19110,7 +19094,8 @@ p.ui-widget-content {
     text-transform: uppercase
 }
 
-.hizliBakis_Adet .riSingle .riDown,.hizliBakis_Adet .riSingle .riUp {
+.hizliBakis_Adet .riSingle .riDown,
+.hizliBakis_Adet .riSingle .riUp {
     width: 25px!important
 }
 
@@ -19188,7 +19173,7 @@ p.ui-widget-content {
 .kombinItem .PriceListKombin>.kombinFormline:nth-child(2)>div {
     color: #000;
     font-size: 14px;
-    font-family: abakutlsymsans,sans-serif;
+    font-family: abakutlsymsans, sans-serif;
     font-weight: 600
 }
 
@@ -19302,15 +19287,15 @@ p.ui-widget-content {
 }
 
 .sayfaIcerik * {
-    font-family: josefin sans,sans-serif!important
+    font-family: josefin sans, sans-serif!important
 }
 
 #accordion * {
-    font-family: josefin sans,sans-serif!important
+    font-family: josefin sans, sans-serif!important
 }
 
 .OzelSayfaSag * {
-    font-family: josefin sans,sans-serif!important
+    font-family: josefin sans, sans-serif!important
 }
 
 .sayfaIcerik img {
@@ -19977,7 +19962,7 @@ p.ui-widget-content {
 
 @media screen and (max-width: 1025px) {
     .GuvenList li .Gtext {
-        font-size:.9vw
+        font-size: .9vw
     }
 }
 
@@ -20051,7 +20036,7 @@ p.ui-widget-content {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255,255,255,.37)
+    background: rgba(255, 255, 255, .37)
 }
 
 .ban1 img {
@@ -20084,7 +20069,7 @@ p.ui-widget-content {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255,255,255,.37)
+    background: rgba(255, 255, 255, .37)
 }
 
 .ban2>.row>a {
@@ -20101,7 +20086,7 @@ p.ui-widget-content {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255,255,255,.37)
+    background: rgba(255, 255, 255, .37)
 }
 
 .ban2 img {
@@ -20134,7 +20119,7 @@ p.ui-widget-content {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255,255,255,.37)
+    background: rgba(255, 255, 255, .37)
 }
 
 .banfull>.row>a {
@@ -20151,7 +20136,7 @@ p.ui-widget-content {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(255,255,255,.37)
+    background: rgba(255, 255, 255, .37)
 }
 
 .banfull img {
@@ -20313,7 +20298,6 @@ p.ui-widget-content {
 
 .linkler {
     display: inline-block;
-    
     width: 100%;
     padding: 35px 0
 }
@@ -20517,7 +20501,7 @@ p.ui-widget-content {
     margin: 0!important;
     background: #fff;
     padding: 15px 0;
-    font-family: roboto,sans-serif!important
+    font-family: roboto, sans-serif!important
 }
 
 .imgzoom {
@@ -20740,7 +20724,6 @@ p.ui-widget-content {
 }
 
 .product-social-icon-wrapper li {
-    
     width: 100%;
     display: inline-block;
     text-align: center
@@ -20922,39 +20905,35 @@ p.ui-widget-content {
 
 @media screen and (min-width: 1024px) and (max-width:1284px) {
     .MusteriHizmet .Mtext a {
-        font-size:13px
+        font-size: 13px
     }
-
     .MusteriHizmet .Mtext a p {
         font-size: 20px
     }
-
     .footer-blog {
         position: absolute;
         top: 150px
     }
-
     .Mobil-uygulama a {
         width: 100%;
         text-align: center
     }
-
     .Mobil-uygulama a:first-child {
         text-align: center
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width:1370px) {
-    .headerContent,.ticiContainer {
-        max-width:1300px
+    .headerContent,
+    .ticiContainer {
+        max-width: 1300px
     }
 }
 
 @media screen and (min-width: 1025px) {
     .sortingContent {
-        display:block!important
+        display: block!important
     }
-
     .mobilMenu {
         display: none!important
     }
@@ -20962,20 +20941,18 @@ p.ui-widget-content {
 
 @media screen and (max-width: 1025px) {
     #slider-range {
-        background:#dedede;
+        background: #dedede;
         height: 5px!important;
         width: 93%;
         margin: 0 10px!important;
         border: none;
         float: left
     }
-
     #slider-range .ui-slider-range {
         background: #d4d4d4!important;
         height: 5px!important;
         margin-top: 0!important
     }
-
     #slider-range .ui-slider-handle {
         background: #444!important;
         border-radius: 100%!important;
@@ -20986,7 +20963,6 @@ p.ui-widget-content {
         margin-right: -4px!important;
         top: -5px
     }
-
     #amount {
         color: #000;
         font-size: 12px;
@@ -20998,16 +20974,13 @@ p.ui-widget-content {
         text-align: left;
         margin-bottom: 0
     }
-
     .sortingContent li:not(.appliedFilter) {
         border-bottom: 1px solid #ddd!important
     }
-
     .category-vertical-filters.top-filters .list-group.dropdown {
         background: #eee!important;
         margin-top: 5px
     }
-
     .category-vertical-filters.top-filters .list-group.dropdown li {
         background: #eee!important;
         margin-bottom: 0!important
@@ -21016,175 +20989,137 @@ p.ui-widget-content {
 
 @media screen and (min-width: 992px) and (max-width:1024px) {
     .MusteriHizmet .Mtext a {
-        font-size:13px
+        font-size: 13px
     }
-
     .MusteriHizmet .Mtext a p {
         font-size: 20px
     }
-
     .footer-blog {
         position: absolute;
         top: 150px
     }
-
     .Mobil-uygulama a {
         width: 100%;
         text-align: center
     }
-
     .Mobil-uygulama a:first-child {
         text-align: center
     }
-
     .mobilMenu {
         display: none!important
     }
-
     .navigation {
         float: right
     }
-
     .navigation .ResimliMenu1 {
         max-width: 95%;
         position: static
     }
-
     .navigation .HeaderMenu2 {
         max-width: 95%
     }
-
-    .footerContainer,.ticiContainer.homeContainer {
+    .footerContainer,
+    .ticiContainer.homeContainer {
         width: 100%
     }
-
     .ticiContainer.footerContainer {
         width: 100%
     }
-
     .headerContent {
         max-width: 95%
     }
-
     .ticiContainer {
         width: 100%
     }
-
     .HesabimContainer .centerCount {
         float: left;
         width: 70%
     }
-
     .HesabimContainer .leftBlock {
         width: 30%;
         float: left
     }
-
     .HesabimContainer .categoryTitle .categoryTitleText {
         width: 100%
     }
-
     .iletisimContent .row {
         width: 100%;
         margin-bottom: 30px
     }
-
     .mobilFilterOpenBtn {
         margin: 0 0 20px!important
     }
-
     .blockSelect {
         display: none
     }
-
     .leftImage {
         width: 47.2%
     }
-
     .RightDetail {
         width: 52.8%
     }
-
     .SmallImages div {
         height: 58px
     }
-
     .mobilFilterOpenBtn .button {
         padding: 6px 0;
         font-size: 12px;
         font-weight: 600
     }
-
     ul.breadcrumb {
         max-width: 100%
     }
-
     .sortingContent {
         margin-top: 0
     }
-
     .sortingContent li>a {
         font-size: 12px!important;
         padding: 0 6px!important
     }
-
     .appliedFilter.FiltrelemeUrunAdet span {
         font-size: 12px!important
     }
-
     .sortingContent .appliedFilter {
         display: none!important
     }
-
     .panel-heading a {
         padding-bottom: 0;
         font-size: 13px;
         line-height: 35px
     }
-
     .panel-heading {
         margin-bottom: 0!important;
         padding: 0 10px!important
     }
-
     .sortingContent li>a {
         text-align: center
     }
-
     .category-vertical-filters.top-filters .panel.vertical-top-price-filter {
         margin-left: 0!important
     }
-
     .category-vertical-filters.top-filters .panel {
         padding: 5px 10px!important
     }
-
     .category-vertical-filters.top-filters .panel .panel-heading a:after {
         top: 0!important
     }
-
     .categoryTitleText {
         max-width: 95%
     }
-
     .categoryContainer .centerCount {
         width: 100%
     }
-
     .category-vertical-filters .vertical-filter-panel .list-group-item a {
         font-size: 11px!important;
         line-height: 11px!important
     }
-
     .vertical-filter-panel .list-group-item.list-group-item-image {
         background: 0 0!important;
         height: auto!important
     }
-
     .category-vertical-filters.top-filters .list-group.dropdown li {
         margin-bottom: 10px!important
     }
-
     .category-vertical-filters .vertical-filter-panel .list-group-item:before {
         width: 9px!important;
         height: 10px!important;
@@ -21196,7 +21131,6 @@ p.ui-widget-content {
         text-align: center;
         line-height: 9px
     }
-
     .category-vertical-filters .vertical-filter-panel .list-group-item.selected:before {
         border-color: #666!important;
         background: #fff!important;
@@ -21205,7 +21139,6 @@ p.ui-widget-content {
         color: #666;
         font-size: 8px
     }
-
     .category-vertical-filters .vertical-filter-panel .list-group-item:hover:before {
         border-color: #666!important;
         background: #fff!important;
@@ -21214,303 +21147,233 @@ p.ui-widget-content {
         color: #666;
         font-size: 8px
     }
-
     ul.breadcrumb a {
         font-size: 9px!important
     }
-
     ul.breadcrumb a span {
         font-size: 9px!important
     }
-
     ul.breadcrumb li:after {
         font-size: 9px!important
     }
-
     ul.breadcrumb li:last-child {
         font-size: 9px!important
     }
-
     a#linkOncekiSayfa {
         font-size: 9px!important
     }
-
     .brandlistselection {
         border-bottom: none;
         padding: 0;
         height: auto
     }
-
     .sortingContent:before {
         display: none
     }
-
     .BlokTitle span {
         font-size: 13px;
         width: 250px
     }
-
     .searchContent {
         width: 35%
     }
-
     .navigation .ResimliMenu1>li>a {
         padding: 0 15px
     }
-
     .ban1 {
         margin-bottom: 5%
     }
-
     .GuvenList li .Gtext {
         font-size: 10px
     }
-
     .homeContainer .productItem:hover .productImage a:after {
         top: 77.8%
     }
-
     .FooterMiddle .ticiContainer {
         max-width: 95%
     }
-
     .MusteriHizmet .Mtext a {
         font-size: 12px
     }
-
     .MusteriHizmet .Mtext a p {
         font-size: 20px
     }
-
     .linkler>ul>li>a {
         font-size: 11px
     }
-
     .linkler>ul>li>ul>li>a {
         font-size: 11px
     }
-
     .Etitle {
         font-size: 11px
     }
-
     .linkler>ul>li>.Magazalar>a {
         font-size: 11px;
         line-height: 36px
     }
-
     .linkler>ul>li>.Magazalar>a:after {
         line-height: 36px;
         font-size: 23px
     }
-
     .BlokTitle2 span {
         font-size: 19px
     }
-
     .Blok .BlokText {
         font-size: 11px
     }
-
     .productItem .productName a {
         font-size: 11px
     }
-
     .productItem .productOnYazi * {
         font-size: 11px
     }
-
     .productItem .discountPrice span {
         font-size: 11px!important
     }
-
     .productItem .regularPrice {
         margin-top: 2px
     }
-
     .productItem .regularPrice span {
         font-size: 9px
     }
-
     .discountIcon {
         font-size: 14px;
         width: 29px;
         height: 21px;
         line-height: 23px
     }
-
     .newIcon {
         font-size: 8px;
         width: 29px;
         height: 20px
     }
-
     .firsatIcon {
         font-size: 8px;
         width: 40px
     }
-
     .cargoIcon {
         width: 48px;
         height: 48px;
         background-size: 100%
     }
-
     .TukendiIco span {
         font-size: 11px
     }
-
     .quickViewIco {
         left: 25px
     }
-
     .quickViewIco a {
         font-size: 10px
     }
-
     .favori {
         right: 13px
     }
-
     .favori a:after {
         font-size: 10px
     }
-
     .altMenu {
         width: 100%
     }
-
     .navigation .ResimliMenu1>li {
         position: static
     }
-
     .categoryContainer {
         padding: 0 10px
     }
-
     .ProductName h1 span:not(#divUrunKodu) {
         font-size: 16px
     }
-
     #divOnyazi * {
         font-size: 17px
     }
-
     #divIndirimOrani {
         width: 29px;
         height: 20px
     }
-
     #divIndirimOrani .indirimliOrani {
         font-size: 13px;
         line-height: 20px
     }
-
     #divIndirimOrani .indirimliOrani * {
         font-size: 13px;
         line-height: 20px
     }
-
     .PiyasafiyatiContent .right_line * {
         font-size: 8px
     }
-
     .IndirimliFiyatContent .right_line .spanFiyat {
         font-size: 13px
     }
-
     #divKargoBedava {
         margin-top: 5px;
         margin-right: 70px
     }
-
     #divKargoBedava .box1 {
         font-size: 9px
     }
-
     .PriceList {
         padding-bottom: 5px
     }
-
     #divUrunEkSecenek .eksecenekLine .right_line .size_box img {
         width: 30px;
         height: 30px
     }
-
     #divUrunEkSecenek .eksecenekLine .right_line .size_box {
         width: 36px
     }
-
     .basketBtn {
         width: 82%
     }
-
     .UFavorilerimeEkle .box1 {
         width: 30px;
         height: 30px
     }
-
     .UFavorilerimeEkle .box1 i:before {
         line-height: 30px;
         font-size: 19px
     }
-
     #divSatinAl {
         width: 63%
     }
-
     .productDetailContainer {
         width: 95%
     }
-
     .urunTabAlt * {
         font-size: 9px
     }
-
     #divUrunKodu {
         font-size: 9px
     }
-
     #divUrunKodu:before {
         font-size: 9px
     }
-
     #divBenzerUrun .categoryTitle .bold .satir1 {
         font-size: 18px
     }
-
     .AltBanner .AltBannerAlan .TextAlanB>div.One {
         font-size: 15px
     }
-
     .AltBanner .AltBannerAlan .TextAlanB>div.Two {
         font-size: 38px
     }
-
     .AltBanner .AltBannerAlan .TextAlanB>div.Three {
         font-size: 11px
     }
-
     .AltBanner .AltBannerAlan .TextAlanB>div.Four {
         font-size: 30px
     }
-
     .AltBanner .AltBannerAlan .TextAlanB>div.Five a {
         font-size: 14px
     }
-
     .banksimg .bankimgs img {
         max-width: 82%
     }
-
     .topText {
         font-size: 10px
     }
-
     .appliedFilter.FiltrelemeUrunAdet {
         display: none!important
     }
-
     .sepetimBody .AltBanner {
         display: none
     }
@@ -21518,27 +21381,22 @@ p.ui-widget-content {
 
 @media screen and (min-width: 768px) and (max-width:992px) {
     .MusteriHizmet .Mtext a {
-        font-size:13px
+        font-size: 13px
     }
-
     .MusteriHizmet .Mtext a p {
         font-size: 20px
     }
-
     .footer-blog {
         position: absolute;
         top: 130px
     }
-
     .Mobil-uygulama a {
         width: 100%;
         text-align: center
     }
-
     .Mobil-uygulama a:first-child {
         text-align: center
     }
-
     .mobilMenuAcButton {
         display: none!important;
         bottom: auto;
@@ -21547,201 +21405,161 @@ p.ui-widget-content {
         font-size: 30px;
         width: 70px
     }
-
     .mobilMenuAcButton span {
         font-size: 15px
     }
-
     .mobilMenuAcButton i.fa-search {
         font-size: 25px
     }
-
     .mobilMenu {
         width: 42%!important
     }
-
     .navigation {
         float: right
     }
-
     .navigation .ResimliMenu1 {
         max-width: 95%;
         position: static
     }
-
     .navigation .HeaderMenu2 {
         max-width: 95%
     }
-
     .headerContent {
         max-width: 95%
     }
-
-    .footerContainer,.ticiContainer,.ticiContainer.homeContainer {
+    .footerContainer,
+    .ticiContainer,
+    .ticiContainer.homeContainer {
         width: 100%;
         padding: 0
     }
-
     .blockSelect {
         display: none
     }
-
     .HesabimContainer .centerCount {
         float: left;
         width: 70%
     }
-
     .HesabimContainer .leftBlock {
         width: 30%;
         float: left
     }
-
-    #divIlgiliUrunler .productModuleItem,.sliderBannerContainer ul li,.ProductList.pr_4 .productItem {
+    #divIlgiliUrunler .productModuleItem,
+    .sliderBannerContainer ul li,
+    .ProductList.pr_4 .productItem {
         width: 31.5%
     }
-
     .sliderBannerContainer ul li:nth-child(3n) {
         margin-right: 0
     }
-
     .sliderBannerContainer ul li:nth-child(5n) {
         margin-right: 20px
     }
-
     .HesabimContainer .categoryTitle .categoryTitleText {
         width: 100%
     }
-
-    .categoryContainer .categoryTitleText,.productDetailContainer .categoryTitle {
+    .categoryContainer .categoryTitleText,
+    .productDetailContainer .categoryTitle {
         width: 100%
     }
-
     .iletisimContent .row {
         width: 100%;
         margin-bottom: 30px
     }
-
     .mobilFilterOpenBtn {
         margin: 0
     }
-
     .category-vertical-filters>div {
         width: 100%!important
     }
-
     ul.breadcrumb {
         max-width: 95%
     }
-
     .leftImage {
         width: 47.2%
     }
-
     .RightDetail {
         width: 52.8%
     }
-
     .SmallImages div {
         height: 46px
     }
-
     .filterDeleteContent.ng-scope {
         padding: 0
     }
-
     .mobilFilterOpenBtn .button {
         font-size: 20px
     }
-
     .sortingContent {
         margin-top: 0
     }
-
     .panel-heading {
         margin-bottom: 0!important
     }
-
     .panel-heading a {
         line-height: 25px;
         font-size: 13px;
         padding-left: 10px
     }
-
     .category-vertical-filters>div {
         margin-bottom: 5px!important
     }
-
     .category-vertical-filters.top-filters .panel .panel-heading a:after {
         color: #000!important
     }
-
     .sortingContent li:not(.appliedFilter) {
         text-align: center!important
     }
-
     .sortingContent li>a {
         text-align: center!important;
         padding: 0!important
     }
-
     .sortingContent .appliedFilter {
         width: 100%;
         text-align: center!important;
         position: static;
         display: none!important
     }
-
     .mobilFilterOpenBtn .button {
         padding: 6px 0;
         font-size: 12px;
         font-weight: 600
     }
-
     .panel-heading a {
         padding-bottom: 0;
         font-size: 13px;
         line-height: 35px
     }
-
     .panel-heading {
         margin-bottom: 0!important;
         padding: 0 10px!important
     }
-
     .category-vertical-filters.top-filters .panel.vertical-top-price-filter {
         margin-left: 0!important
     }
-
     .category-vertical-filters.top-filters .panel {
         padding: 5px 10px!important
     }
-
     .category-vertical-filters.top-filters .panel .panel-heading a:after {
         top: 0!important
     }
-
     .categoryTitleText {
         max-width: 95%
     }
-
     .categoryContainer .centerCount {
         width: 100%
     }
-
     .category-vertical-filters .vertical-filter-panel .list-group-item a {
         font-size: 11px!important;
         line-height: 11px!important
     }
-
     .vertical-filter-panel .list-group-item.list-group-item-image {
         background: 0 0!important;
         height: auto!important
     }
-
     .category-vertical-filters.top-filters .list-group.dropdown li {
         margin-bottom: 10px!important
     }
-
     .category-vertical-filters .vertical-filter-panel .list-group-item:before {
         width: 9px!important;
         height: 10px!important;
@@ -21753,7 +21571,6 @@ p.ui-widget-content {
         text-align: center;
         line-height: 9px
     }
-
     .category-vertical-filters .vertical-filter-panel .list-group-item.selected:before {
         border-color: #666!important;
         background: #fff!important;
@@ -21762,7 +21579,6 @@ p.ui-widget-content {
         color: #666;
         font-size: 8px
     }
-
     .category-vertical-filters .vertical-filter-panel .list-group-item:hover:before {
         border-color: #666!important;
         background: #fff!important;
@@ -21771,331 +21587,254 @@ p.ui-widget-content {
         color: #666;
         font-size: 8px
     }
-
     ul.breadcrumb a {
         font-size: 9px!important
     }
-
     ul.breadcrumb li:after {
         font-size: 9px!important
     }
-
     ul.breadcrumb li:last-child {
         font-size: 9px!important
     }
-
     a#linkOncekiSayfa {
         font-size: 9px!important
     }
-
     .categoryTitleText {
         max-width: 95%
     }
-
     .brandlistselection {
         border-bottom: none;
         padding: 0;
         height: auto
     }
-
     .BlokTitle span {
         font-size: 13px;
         width: 250px
     }
-
     .searchContent {
         width: 35%
     }
-
     .navigation .ResimliMenu1>li>a {
         padding: 0 11px;
         font-size: 11px
     }
-
     .ban1 {
         margin-bottom: 5%
     }
-
     .GuvenList li {
         padding: 0 0 0 1%
     }
-
     .GuvenList li .Gtext {
         font-size: 8px
     }
-
     .GuvenList li .Gimg {
         width: 100%
     }
-
     .GuvenList li .Gimg img {
         max-width: 100%
     }
-
     .homeContainer .productItem:hover .productImage a:after {
         top: 77.8%
     }
-
     .FooterMiddle .ticiContainer {
         max-width: 95%
     }
-
     .MusteriHizmet .Mimg {
         width: 30px
     }
-
     .MusteriHizmet .Mimg img {
         width: 100%
     }
-
     .MusteriHizmet .Mtext a {
         font-size: 9px
     }
-
     .MusteriHizmet .Mtext a p {
         font-size: 15px
     }
-
     .linkler>ul>li>a {
         font-size: 11px
     }
-
     .linkler>ul>li>ul>li>a {
         font-size: 11px
     }
-
     .Etitle {
         font-size: 11px
     }
-
     .linkler>ul>li>.Magazalar>a {
         font-size: 11px;
         line-height: 36px
     }
-
     .linkler>ul>li>.Magazalar>a:after {
         line-height: 36px;
         font-size: 23px
     }
-
     .BlokTitle2 span {
         font-size: 19px
     }
-
     .Blok .BlokText {
         font-size: 11px
     }
-
     .productItem .productName a {
         font-size: 11px
     }
-
     .productItem .productOnYazi * {
         font-size: 11px
     }
-
     .productItem .discountPrice span {
         font-size: 11px!important
     }
-
     .productItem .regularPrice {
         margin-top: 2px
     }
-
     .productItem .regularPrice span {
         font-size: 9px
     }
-
     .discountIcon {
         font-size: 14px;
         width: 29px;
         height: 21px;
         line-height: 21px
     }
-
     .newIcon {
         font-size: 8px;
         width: 29px;
         height: 20px
     }
-
     .firsatIcon {
         font-size: 8px;
         width: 40px
     }
-
     .cargoIcon {
         width: 48px;
         height: 48px;
         background-size: 100%
     }
-
     .TukendiIco span {
         font-size: 11px
     }
-
     .quickViewIco {
         left: 25px
     }
-
     .quickViewIco a {
         font-size: 10px
     }
-
     .favori {
         right: 25px
     }
-
     .favori a:after {
         font-size: 10px
     }
-
     .altMenu {
         width: 100%
     }
-
     .navigation .ResimliMenu1>li {
         position: static
     }
-
     .categoryContainer {
         padding: 0 10px
     }
-
     .ProductName h1 span:not(#divUrunKodu) {
         font-size: 16px
     }
-
     #divOnyazi * {
         font-size: 17px
     }
-
     #divIndirimOrani {
         width: 29px;
         height: 20px
     }
-
     #divIndirimOrani .indirimliOrani {
         font-size: 13px;
         line-height: 20px
     }
-
     #divIndirimOrani .indirimliOrani * {
         font-size: 13px;
         line-height: 20px
     }
-
     .PiyasafiyatiContent .right_line * {
         font-size: 8px
     }
-
     .IndirimliFiyatContent .right_line .spanFiyat {
         font-size: 13px
     }
-
     #divKargoBedava .box1 {
         font-size: 9px
     }
-
     .PriceList {
         padding-bottom: 5px
     }
-
     #divUrunEkSecenek .eksecenekLine .right_line .size_box img {
         width: 30px;
         height: 30px
     }
-
     #divUrunEkSecenek .eksecenekLine .right_line .size_box {
         width: 36px
     }
-
     .basketBtn {
         width: 82%
     }
-
     .UFavorilerimeEkle .box1 {
         width: 30px;
         height: 30px
     }
-
     .UFavorilerimeEkle .box1 i:before {
         line-height: 30px;
         font-size: 19px
     }
-
     #divSatinAl {
         width: 82%
     }
-
     .productDetailContainer {
         width: 95%
     }
-
     .urunTabAlt * {
         font-size: 9px
     }
-
     #divUrunKodu {
         font-size: 9px
     }
-
     #divUrunKodu:before {
         font-size: 9px
     }
-
     #divBenzerUrun .categoryTitle .bold .satir1 {
         font-size: 18px
     }
-
     .AltBanner .AltBannerAlan .TextAlanB>div.One {
         font-size: 15px
     }
-
     .AltBanner .AltBannerAlan .TextAlanB>div.Two {
         font-size: 38px
     }
-
     .AltBanner .AltBannerAlan .TextAlanB>div.Three {
         font-size: 11px
     }
-
     .AltBanner .AltBannerAlan .TextAlanB>div.Four {
         font-size: 30px
     }
-
     .AltBanner .AltBannerAlan .TextAlanB>div.Five a {
         font-size: 14px
     }
-
     .ProductName {
         width: 82%
     }
-
     #divOnyazi {
         width: 82%
     }
-
     #divUrunEkSecenek {
         width: 82%
     }
-
     .banksimg .bankimgs img {
         max-width: 82%
     }
-
     .topText {
         font-size: 10px
     }
-
     .sortingContent:before {
         display: none
     }
-
     .appliedFilter.FiltrelemeUrunAdet {
         display: none!important
     }
-
     .sepetimBody .AltBanner {
         display: none
     }
@@ -22127,12 +21866,11 @@ p.ui-widget-content {
 
 @media screen and (max-width: 767px) {
     .mobilMenu>.nav-footer {
-        display:block;
+        display: block;
         float: left;
         width: 100%;
         margin-top: 10px
     }
-
     .mobilMenu>.nav-footer>.Area {
         float: none;
         background: 0 0;
@@ -22140,7 +21878,6 @@ p.ui-widget-content {
         padding: 0;
         margin-bottom: 10px
     }
-
     .mobilMenu>.nav-footer>.Area>.T {
         background-color: #eee;
         color: #383838;
@@ -22148,34 +21885,28 @@ p.ui-widget-content {
         padding: 11px 18px;
         font-size: 14px
     }
-
     .mobilMenu>.nav-footer>.Area>.Content {
         padding: 10px 0
     }
-
     .mobilMenu>.nav-footer>.Area>.Content>.item {
         display: -webkit-flex;
         display: flex;
         align-items: center;
         justify-content: space-between
     }
-
     .mobilMenu>.nav-footer>.Area>.Content>.item>.column:first-child {
         flex: auto
     }
-
     .mobilMenu>.nav-footer>.Area>.Content>.item>.column>.control {
         padding-right: 13px;
         display: -webkit-flex;
         display: flex;
         align-items: center
     }
-
     .mobilMenu>.nav-footer>.Area>.Content>.item>.column>.control a {
         color: #252525;
         font-size: 14px
     }
-
     .mobilMenu>.nav-footer>.Area>.Content>.item>.column>.control>.Or {
         width: 1px;
         height: 16px;
@@ -22183,7 +21914,6 @@ p.ui-widget-content {
         display: inline-block;
         margin: 0 4px
     }
-
     .mobilMenu>.nav-footer>.Area>.Content>.item>.column>.Link {
         width: 100%;
         padding: 10px 18px;
@@ -22194,52 +21924,42 @@ p.ui-widget-content {
         font-weight: 600;
         font-size: 14px
     }
-
     .mobilMenu>.nav-footer>.Area>.Content>.item>.column>.Link>i {
         font-size: 20px;
         margin-right: 10px
     }
-
     .mobilMenu>.nav-footer>.Area>.Content>.social-list {
         padding: 11px
     }
-
     .mobilMenu>.nav-footer>.Area>.Content>.social-list>.social-link {
         display: inline-block;
         font-size: 21px;
         color: #000;
         padding: 0 7px
     }
-
     .sagIcerikTutucu.ng-hide {
         display: block!important
     }
-
     .OdemeMenu ul.odemeSecenekMenu>li>a {
         height: auto!important
     }
-
     .OdemeMenu ul.odemeSecenekMenu>li>a>p {
         padding: 0 5px
     }
-
     body .mobilTicimaxLogo {
         display: none
     }
-
     body .hopi-btn {
         padding: 10px 30px;
         background-size: auto 23px
     }
-
-    body .hopi-btn-cta-text,body .hopi-btn-used-campaign {
+    body .hopi-btn-cta-text,
+    body .hopi-btn-used-campaign {
         margin-top: 3px
     }
-
     .bankiyzico img {
         max-width: 100%
     }
-
     .MobilKategori {
         display: block;
         float: left;
@@ -22247,7 +21967,6 @@ p.ui-widget-content {
         padding: 15px 0;
         padding-left: 5px
     }
-
     .MobilKategori ul {
         white-space: nowrap;
         overflow-x: scroll;
@@ -22255,7 +21974,6 @@ p.ui-widget-content {
         display: block;
         -webkit-overflow-scrolling: touch
     }
-
     .MobilKategori ul li {
         text-align: center;
         display: inline-block;
@@ -22263,17 +21981,14 @@ p.ui-widget-content {
         vertical-align: top;
         margin-right: 5px
     }
-
     .MobilKategori ul li img {
         border-radius: 50%;
         border: .5px solid;
         padding: 1.5px
     }
-
     .MobilKategori ul li a {
         display: block
     }
-
     .MobilKategori ul li span {
         font-size: 17px;
         line-height: 33px;
@@ -22282,45 +21997,35 @@ p.ui-widget-content {
         font-weight: 300;
         display: block
     }
-
     #formPuan {
         text-align: center
     }
-
     #iframePuan {
         width: 100%
     }
-
     .BasketPuanKullanim {
         padding: 10px 0
     }
-
     #BedenTabloHtml {
         padding: 15px
     }
-
     #BedenTabloHtml>ul>li>a {
         padding: 10px 15px;
         font-size: 11px
     }
-
     .BedenAccordionTitle a {
         line-height: 30px;
         font-size: 11px
     }
-
     .BedenAccordionTitle {
         margin-bottom: 0
     }
-
     .BedenAccordion {
         margin-top: 5px
     }
-
     .filterDeleteContent {
         position: static
     }
-
     #divOzelAlan3 {
         display: none;
         float: left;
@@ -22330,36 +22035,28 @@ p.ui-widget-content {
         font-size: 13px;
         color: #c90000
     }
-
     .siparisOzet .UrunContent .sepetItem>div {
         display: block
     }
-
     .addressCol {
         float: left;
         width: 100%
     }
-
     #divUrunKodu {
         padding-left: 0
     }
-
     #divOzelAlan2 {
         padding-left: 0
     }
-
     #divOzelAlan4 {
         padding-left: 0
     }
-
     .ItemOrj {
         padding: 0 9px
     }
-
     .categoryContainer .ProductList {
         margin: 0 -2.5px
     }
-
     #divBenzerUrun .JKatAdi .bold .satir1 {
         float: left;
         width: 100%;
@@ -22372,16 +22069,13 @@ p.ui-widget-content {
         height: 48px;
         line-height: 52px
     }
-
     .urunTabAlt.active {
         display: block
     }
-
     .Mozellik {
         float: left;
         width: 100%
     }
-
     .Mobilozellik {
         display: none;
         float: left;
@@ -22389,7 +22083,6 @@ p.ui-widget-content {
         text-align: center;
         margin: 15px 0
     }
-
     .Mobilozellikbtn {
         display: inline-block;
         height: 35px;
@@ -22399,31 +22092,25 @@ p.ui-widget-content {
         font-size: 14px;
         color: #000
     }
-
     .Mobilozellikbtn.active {
         font-size: 0
     }
-
     .Mobilozellikbtn.active:after {
         content: "GİZLE";
         line-height: 35px;
         font-size: 14px;
         color: #000
     }
-
     #divUrunEkSecenek .eksecenekLine {
         margin-bottom: 5px;
         margin-top: 13px
     }
-
     .OzellikClick {
         font-size: 0
     }
-
     .OzellikClick i {
         display: none
     }
-
     .OzellikClick:after {
         content: "ÜRÜN DETAYI";
         float: left;
@@ -22431,7 +22118,6 @@ p.ui-widget-content {
         color: #747474;
         font-size: 15px
     }
-
     .KatMobil {
         display: block;
         float: left;
@@ -22441,18 +22127,15 @@ p.ui-widget-content {
         max-height: 93px;
         overflow: hidden
     }
-
     .KatMobil.active {
         max-height: 1000000px
     }
-
     .KatMobil span {
-        font-family: josefin sans,sans-serif!important;
+        font-family: josefin sans, sans-serif!important;
         font-size: 25px;
         color: #000;
         font-weight: 300
     }
-
     .KatAcBtn {
         position: absolute;
         left: 0;
@@ -22462,25 +22145,20 @@ p.ui-widget-content {
         background: #fff;
         bottom: 0
     }
-
     .KatMobil.active .KatAcBtn {
         font-size: 0
     }
-
     .KatMobil.active .KatAcBtn:before {
         content: "Gizle";
         font-size: 12px
     }
-
     .MF .mflink.Fav {
         width: 20px;
         height: 20px
     }
-
     .MF .mflink.Fav a img {
         display: none
     }
-
     .MF .mflink.Fav a:before {
         content: "";
         font-family: fontawesomepro;
@@ -22489,7 +22167,6 @@ p.ui-widget-content {
         display: block;
         font-weight: 300
     }
-
     .mycart .sepetTecxt:before {
         background: 0 0;
         content: "";
@@ -22499,22 +22176,19 @@ p.ui-widget-content {
         margin-bottom: 0;
         font-weight: 300
     }
-
     .teknikDetay {
         float: left;
         width: 100%
     }
-
-    .magazaSelect,#searchStore {
+    .magazaSelect,
+    #searchStore {
         width: 100%!important
     }
-
     .cookietudors {
         padding-right: 35px;
         font-weight: 300;
         text-align: left
     }
-
     .kapatx {
         right: 14%;
         width: 23%;
@@ -22526,35 +22200,27 @@ p.ui-widget-content {
         border: 1px solid;
         border-radius: 1.5px
     }
-
     .OzelNewTabSag {
         width: 100%
     }
-
     #pnlSlider {
         display: block
     }
-
     .Blok {
         display: none
     }
-
     #anasayfatab {
         display: none
     }
-
     .HomeBody .AltBanner {
         display: none
     }
-
     #header .H-blog {
         display: none
     }
-
     .HomeBody .Mobil-blok .AltBanner {
         display: block
     }
-
     .Mobil-Blok-Banner {
         float: left;
         width: 100%;
@@ -22565,26 +22231,22 @@ p.ui-widget-content {
         line-height: 30px;
         margin-bottom: 10px
     }
-
     .Mobil-Blok-Banner span {
         font-size: 13px;
         font-weight: 700;
         margin-left: 5px
     }
-
     .Mobil-blok {
         display: block!important;
         float: left;
         width: 100%;
         text-align: center
     }
-
     .Mobil-Blok-Box {
         float: left;
         width: 100%;
         position: relative
     }
-
     .Mobil-Blok-Box-Button {
         position: absolute;
         bottom: 15px;
@@ -22593,7 +22255,6 @@ p.ui-widget-content {
         margin: auto;
         width: 250px
     }
-
     .Mobil-Blok-Box-Button a {
         float: left;
         width: 115px;
@@ -22608,13 +22269,11 @@ p.ui-widget-content {
         margin-bottom: 15px;
         height: 30px
     }
-
     .mobil-box-5 .Mobil-Blok-Box-Button {
         text-align: center;
         width: 319px;
         bottom: 45px
     }
-
     .mobil-box-5 .Mobil-Blok-Box-Button a {
         font-size: 10px;
         width: 85px;
@@ -22622,22 +22281,18 @@ p.ui-widget-content {
         height: 26px;
         margin: 0
     }
-
     .mobil-box-5 .Mobil-Blok-Box-Button a:last-child {
         float: right
     }
-
     .mobil-box-5 .Mobil-Blok-Box-Button a:nth-last-child(2) {
         float: none;
         display: inline-block
     }
-
     .Mobil-Guvenlist {
         width: 100%;
         float: left;
         padding-bottom: 15px
     }
-
     .Mobil-Guvenlist ul li {
         width: 48%;
         float: left;
@@ -22648,13 +22303,11 @@ p.ui-widget-content {
         text-align: center;
         position: relative
     }
-
     .Mobil-Guvenlist .Gimg {
         float: left;
         max-width: 20px;
         min-width: 20px
     }
-
     .Mobil-Guvenlist .Gtext {
         color: #313131;
         font-size: 10px;
@@ -22662,58 +22315,46 @@ p.ui-widget-content {
         text-align: center;
         padding-top: 9px
     }
-
     .Mobil-Guvenlist .HoverAlan {
         font-size: 10px;
         line-height: 14px
     }
-
     .Mobil-Guvenlist ul li.active .HoverAlan {
         display: block;
         width: 100%;
         box-shadow: none
     }
-
     .navigation .ResimliMenu1>li:last-child {
         display: block
     }
-
     #BedenForm #ngFormController {
         width: auto
     }
-
     .MF .H-blog {
         margin-right: 3px;
         margin-top: -10px
     }
-
     .footer-blog {
         display: none
     }
-
     #anasayfatab:before {
         display: none
     }
-
     #anasayfatab:after {
         display: none
     }
-
     #anasayfatab {
         margin: 5px 0;
         padding: 10px 0
     }
-
     #anasayfatab .anasayfaTabAlt.active {
         padding: 15px 0
     }
-
     .headerContent {
         border-bottom: none;
         background: #000;
         height: 50px
     }
-
     .headerContent:after {
         content: "";
         position: absolute;
@@ -22723,20 +22364,16 @@ p.ui-widget-content {
         height: 1px;
         background: #e0e0e0
     }
-
     .Mobil-uygulama {
         padding-right: 0
     }
-
     .Mobil-uygulama a {
         display: inline;
         float: left
     }
-
     .flex-direction-nav {
         display: none
     }
-
     .mobilMenuAcButton {
         display: inline-block!important;
         bottom: auto;
@@ -22746,29 +22383,24 @@ p.ui-widget-content {
         width: auto;
         color: #fff
     }
-
     .navigation {
         display: none
     }
-
     .ticiContainer.homeContainer {
         width: 100%;
         padding-left: 5px;
         padding-right: 5px
     }
-
     .ticiContainer.footerContainer {
         width: 100%;
         padding-left: 5px;
         padding-right: 5px
     }
-
     .ticiContainer.productDetailContainer {
         width: 100%;
         padding-left: 0;
         padding-right: 0
     }
-
     .Muser {
         position: absolute;
         right: 77px;
@@ -22777,22 +22409,20 @@ p.ui-widget-content {
         color: #000;
         display: none
     }
-
     .Muser i {
         font-weight: 400;
         color: #454545
     }
-
-    .footerContainer,.headerContent,.ticiContainer {
+    .footerContainer,
+    .headerContent,
+    .ticiContainer {
         width: 100%;
         padding-left: 0;
         padding-right: 0
     }
-
     .centerCount .ticiContainer {
         padding: 0
     }
-
     .grid {
         width: 100%;
         margin: 0;
@@ -22800,69 +22430,56 @@ p.ui-widget-content {
         border: none;
         margin-bottom: 10px
     }
-
     .SifremiUnuttum {
         width: 100%;
         margin: 0;
         padding: 0
     }
-
     .SifremiUnuttum .line {
         width: 59.5%
     }
-
     .SifremiUnuttum #mainHolder_txtbxMail {
         width: 70%
     }
-
     .SifremiUnuttum .button {
         width: 30%
     }
-
     .leftBlock {
         width: 100%;
         padding: 0
     }
-
     .categoryContainer .centerCount {
         width: 100%
     }
-
     .blockSelect {
         display: none
     }
-
     .Images {
         width: 100%;
         margin-bottom: 10px;
         padding-bottom: 128%
     }
-
     .leftImage {
         width: 100%;
         padding: 0;
         margin-bottom: 8px;
         margin-top: 0
     }
-
     .SmallImages {
         width: 100%;
         max-height: 100%;
         margin-left: 0;
         padding: 0 5px
     }
-
     .SmallImages div {
         width: 23.7%;
         margin-right: 5px;
         margin-bottom: 5px!important;
         height: 87px
     }
-
     .SmallImages div:nth-child(4n) {
         margin-right: 0
     }
-
     .RightDetail {
         width: 100%;
         margin-bottom: 25px;
@@ -22870,27 +22487,22 @@ p.ui-widget-content {
         margin-left: 0;
         padding: 0 5px
     }
-
     .urunTab {
         padding: 0;
         width: 100%;
         height: auto
     }
-
     .urunTab ul {
         padding: 0
     }
-
     .urunTab li {
         float: left;
         padding: 0;
         margin-bottom: 0
     }
-
     .urunTab li:last-child {
         border: none
     }
-
     .urunTab li a {
         width: 100%;
         padding: 0;
@@ -22899,89 +22511,76 @@ p.ui-widget-content {
         text-align: left;
         border: none
     }
-
     .urunDetayPanel {
         margin-top: -11px;
         max-height: 10000000px
     }
-
     .urunTabAlt #yorumYaz {
         padding-right: 0
     }
-
-    #mainHolder_UrunDetay_txtbxNotlar,.urunTabAlt ul li input[type=text] {
+    #mainHolder_UrunDetay_txtbxNotlar,
+    .urunTabAlt ul li input[type=text] {
         width: 100%!important
     }
-
     .leftBlock {
         display: none
     }
-
     #divBenzerUrun ul {
         width: 100%
     }
-
     #linkOncekiSayfa {
         float: right!important;
         clear: left
     }
-
     .HesabimContainer .centerCount {
         float: left;
         width: 100%;
         padding-left: 0;
         padding-top: 10px
     }
-
     .HesabimContainer .leftBlock {
         width: 100%;
         float: left
     }
-
     .uyelikBilgilerimSpan.row {
         width: 100%;
         margin: 0
     }
-
     .HesabimAdresContent .row {
         margin: 0 0 10px;
         float: left;
         width: 100%
     }
-
     .BasketBtn {
         width: 100%
     }
-
     .basketBtn {
         width: 77%;
         height: 100%;
         margin-left: 0
     }
-
     .buyfast {
         width: 100%;
         margin-left: 0;
         margin-top: 10px
     }
-
     .Basketinp {
         width: 145px
     }
-
-    #divIlgiliUrunler .productModuleItem,.ProductList.sort_4 .productItem,.sliderBannerContainer ul li {
+    #divIlgiliUrunler .productModuleItem,
+    .ProductList.sort_4 .productItem,
+    .sliderBannerContainer ul li {
         width: 49%;
         height: auto
     }
-
-    #divIlgiliUrunler .productModuleItem:nth-child(2n+1),.ProductList.sort_4 .productItem:nth-child(2n),.sliderBannerContainer ul li:nth-child(2n) {
+    #divIlgiliUrunler .productModuleItem:nth-child(2n+1),
+    .ProductList.sort_4 .productItem:nth-child(2n),
+    .sliderBannerContainer ul li:nth-child(2n) {
         margin-right: 0
     }
-
     #divNewsLetter {
         width: 100%
     }
-
     .TumKategoriler {
         float: left;
         width: 100%;
@@ -22995,49 +22594,40 @@ p.ui-widget-content {
         text-align: center;
         display: block
     }
-
     .TumKategoriler .fa-bars {
         float: left;
         font-size: 20px
     }
-
     .TumKategoriler .fa-chevron-down {
         float: right;
         font-size: 14px;
         text-align: right;
         line-height: 18px
     }
-
     .sliderBannerContainer ul .slick-slide {
         width: 100%;
         margin-right: 0!important
     }
-
     #txtbxurunSiparisAdedi_wrapper {
         width: 100%!important
     }
-
     .HesabimContainer .categoryTitle .categoryTitleText {
         width: 100%
     }
-
     .linkler li {
         width: 100%!important;
         padding: 5px;
         text-align: center
     }
-
     .social li {
         width: 60px!important;
         margin: 0
     }
-
     .linkler li ul {
         margin-bottom: 15px;
         float: left;
         width: 100%
     }
-
     .ebultenDiv {
         width: 100%!important;
         border: none;
@@ -23045,33 +22635,29 @@ p.ui-widget-content {
         padding: 0;
         margin: 10px 0
     }
-
-    .categoryContainer .categoryTitleText,.productDetailContainer .categoryTitle {
+    .categoryContainer .categoryTitleText,
+    .productDetailContainer .categoryTitle {
         width: 100%;
         padding: 0;
         margin-top: 0;
         border-bottom: none;
         margin-bottom: 15px
     }
-
     #pnlSlider .flex-direction-nav {
         margin-top: -23px
     }
-
-    .userLeftBox,.userRightBox {
+    .userLeftBox,
+    .userRightBox {
         margin: 7px!important;
         padding: 7px!important
     }
-
     .spanTittle {
         font-size: 18px!important
     }
-
     .iletisimContent .row {
         width: 100%;
         margin-bottom: 10px
     }
-
     .searchContent {
         width: auto;
         margin: 0;
@@ -23084,18 +22670,16 @@ p.ui-widget-content {
         background: 0 0;
         bottom: -47px
     }
-
-    .CategoryBody .searchContent,.MagazaSayfa .searchContent {
+    .CategoryBody .searchContent,
+    .MagazaSayfa .searchContent {
         display: none
     }
-
     #divAramaKategori select {
         height: 30px;
         width: 83px;
         padding-left: 5px;
         display: none
     }
-
     #txtbxArama {
         height: 35px;
         padding-left: 10px;
@@ -23106,7 +22690,6 @@ p.ui-widget-content {
         margin: 0;
         padding-top: 2px
     }
-
     #btnKelimeAra {
         height: 32px;
         right: 0;
@@ -23115,11 +22698,9 @@ p.ui-widget-content {
         line-height: 30px;
         background-size: 50% 50%
     }
-
     .search:after {
         line-height: 32px
     }
-
     #header {
         margin-bottom: 0;
         padding-top: 0;
@@ -23128,27 +22709,23 @@ p.ui-widget-content {
         z-index: 99;
         height: 125px
     }
-
-    .CategoryBody #header,.MagazaSayfa #header {
+    .CategoryBody #header,
+    .MagazaSayfa #header {
         height: 51px;
         border-top: 0
     }
-
     .ProductBody #header {
         height: 51px;
         border-top: 0
     }
-
     .ProductBody .searchContent {
         display: none
     }
-
     .topText {
         font-size: 10px;
         text-align: center;
         padding-left: 10px
     }
-
     .welcomeOpen {
         display: block;
         font-size: 25px;
@@ -23157,7 +22734,6 @@ p.ui-widget-content {
         right: 40px;
         top: 14px
     }
-
     .welcome {
         width: auto;
         position: relative;
@@ -23172,21 +22748,18 @@ p.ui-widget-content {
         right: 88px;
         top: 17px
     }
-
     .mobilMenu .welcome {
         display: none
     }
-
     .welcome li {
         width: auto
     }
-
-    .headerHesabim,.headerCikis {
+    .headerHesabim,
+    .headerCikis {
         padding: 0;
         color: #7d7d7d;
         font-size: 13px;
         font-weight: 400;
-        
         width: auto;
         height: auto;
         background: 0 0!important;
@@ -23195,13 +22768,12 @@ p.ui-widget-content {
         display: inline-block;
         font-size: 0!important
     }
-
-    .headerUyeOl a,.headerUyeGiris a {
+    .headerUyeOl a,
+    .headerUyeGiris a {
         padding: 0;
         color: #7d7d7d;
         font-size: 13px;
         font-weight: 400;
-        
         width: 100%;
         height: auto;
         background: 0 0!important;
@@ -23210,16 +22782,18 @@ p.ui-widget-content {
         display: inline-block;
         font-size: 0!important
     }
-
-    .headerUyeGiris a,.headerHesabim {
+    .headerUyeGiris a,
+    .headerHesabim {
         border-right: none
     }
-
-    .headerUyeOl a:after,.headerUyeGiris a:after,.headerHesabim:after,.headerCikis:after {
+    .headerUyeOl a:after,
+    .headerUyeGiris a:after,
+    .headerHesabim:after,
+    .headerCikis:after {
         display: none
     }
-
-    .headerHesabim:after,.headerUyeGiris a:after {
+    .headerHesabim:after,
+    .headerUyeGiris a:after {
         content: "";
         font-family: fontawesomepro;
         font-size: 20px!important;
@@ -23230,40 +22804,32 @@ p.ui-widget-content {
         width: 20px;
         height: 20px
     }
-
     .footerMiddle {
         padding: 20px 0
     }
-
     #logo {
         float: left;
         margin-left: 55px
     }
-
     .sepetimBody #logo {
         margin-left: 0
     }
-
     #logo .logo {
         padding: 3px 0 13px;
         width: 121px;
         margin: 0 auto;
         display: none
     }
-
     #logo .Mlogo {
         display: block
     }
-
     #logo .logo img {
         max-width: 100%
     }
-
     ul.breadcrumb {
         padding: 0 5px!important;
         text-align: center
     }
-
     body.overflow {
         position: fixed;
         top: 0;
@@ -23271,26 +22837,21 @@ p.ui-widget-content {
         right: 0;
         overflow: hidden!important
     }
-
     body.overflow #header.fixed {
         border: none!important
     }
-
     body.overflow #divIcerik.margin {
         margin-top: 47px
     }
-
     .mycart {
         background: 0 0!important;
         width: 17px;
         right: 15px;
         top: 16px
     }
-
     .mycart:hover .CartProduct {
         display: block!important
     }
-
     .mycartClick {
         font-size: 24px;
         top: 14px;
@@ -23301,7 +22862,6 @@ p.ui-widget-content {
         color: #505050;
         display: block
     }
-
     .CartProduct {
         position: fixed;
         right: -100%;
@@ -23315,11 +22875,9 @@ p.ui-widget-content {
         -webkit-transition: all .3s ease;
         -o-transition: all .3s ease
     }
-
     .CartProduct.animated {
         right: 0
     }
-
     .CartProduct .SProduct {
         float: left;
         width: 100%;
@@ -23328,20 +22886,16 @@ p.ui-widget-content {
         overflow-x: hidden;
         padding-right: 20px
     }
-
     .CartProduct .SProduct::-webkit-scrollbar {
         width: 4px
     }
-
     .CartProduct .SProduct::-webkit-scrollbar-track {
         background: #f6f6f6
     }
-
     .CartProduct .SProduct::-webkit-scrollbar-thumb {
         background: #dbdbdb;
         border-radius: 0
     }
-
     .CartProduct .SProduct li {
         float: left;
         width: 100%;
@@ -23350,11 +22904,9 @@ p.ui-widget-content {
         margin-bottom: 10px;
         padding-bottom: 10px
     }
-
     .CartProduct .SProduct li:last-child {
         border-bottom: none
     }
-
     .CartProduct .SProduct li a img {
         float: left;
         width: 83px;
@@ -23363,12 +22915,10 @@ p.ui-widget-content {
         border: 1px solid #e5e5e5;
         margin-right: 10px
     }
-
     .CartProduct .SProduct li .SepettopAd {
         float: left;
         width: 54%
     }
-
     .CartProduct .SProduct li .SepettopAd span:first-child {
         color: #000;
         font-size: 12px;
@@ -23383,7 +22933,6 @@ p.ui-widget-content {
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical
     }
-
     .CartProduct .SProduct li .SepettopAd span:last-child {
         color: #000;
         font-size: 12px;
@@ -23393,23 +22942,19 @@ p.ui-widget-content {
         width: 100%;
         font-weight: 400
     }
-
     .CartProduct .SProduct li .SepetTopAdet {
         float: left;
         color: #000;
         font-size: 12px;
         font-weight: 400
     }
-
     .CartProduct .SProduct li .SepetTopbirim {
         float: left;
         color: #000;
         font-size: 12px;
         font-weight: 400
     }
-
     .CartProduct .SProduct li .sepetTopFiyat {
-        
         display: inline-block!important;
         color: #000;
         font-size: 12px;
@@ -23417,7 +22962,6 @@ p.ui-widget-content {
         text-align: right;
         font-weight: 400
     }
-
     .CartProduct .SPrice {
         float: left;
         width: 100%;
@@ -23427,14 +22971,12 @@ p.ui-widget-content {
         bottom: 60px;
         padding: 0 20px
     }
-
     .CartProduct .SPrice li {
         float: right;
         color: #000;
         font-size: 14px;
         font-weight: 400
     }
-
     .CartProduct .SPrice .sepetToplamTutar {
         font-weight: 400;
         font-size: 25px;
@@ -23442,7 +22984,6 @@ p.ui-widget-content {
         line-height: 30px;
         margin-left: 10px
     }
-
     .CartProduct .button {
         display: inline-block!important;
         background: #000;
@@ -23456,7 +22997,6 @@ p.ui-widget-content {
         left: 20px;
         bottom: 20px
     }
-
     .CartProduct .headerOrderBtn {
         display: inline-block!important;
         color: #fff;
@@ -23464,18 +23004,15 @@ p.ui-widget-content {
         left: auto;
         right: 20px
     }
-
     .CartProduct .SProduct li a:nth-child(2) {
         position: absolute;
         right: -15px;
         top: 0
     }
-
     .CartProduct .SProduct li a:nth-child(2) span i {
         color: #b13434;
         font-size: 15px
     }
-
     .divustSepetteUrunYok span {
         width: 100%;
         float: left;
@@ -23486,36 +23023,29 @@ p.ui-widget-content {
         font-size: 20px;
         margin-bottom: 15px
     }
-
     .CartProduct.SepetBos .SPrice {
         display: none
     }
-
     .CartProduct.SepetBos .button {
         display: none!important
     }
-
     .sepetTopTutar {
         font-size: 0;
         padding: 0;
         border: none
     }
-
     .ngrs-range-slider .ngrs-value {
         position: absolute!important
     }
-
     .ebultenGelecek {
         width: 100%
     }
-
     .ProductIcon {
         padding: 0;
         position: static;
         width: 100%;
         border: none
     }
-
     .ProductIcon .box1 {
         text-align: left;
         padding: 0;
@@ -23524,7 +23054,6 @@ p.ui-widget-content {
         line-height: 33px;
         width: auto
     }
-
     .ProductIcon .box1 i {
         margin-bottom: 0;
         margin-right: 5px;
@@ -23534,34 +23063,36 @@ p.ui-widget-content {
         margin-left: 0;
         width: auto
     }
-
-    .ProductIcon .UIstekListemeEkle,.ProductIcon #divKritikStok,.ProductIcon .UGelinceHaberVer,.ProductIcon #divTelefonSiparis,.ProductIcon .UFavorilerimeEkle,.ProductIcon #divIndirimliUrun,.ProductIcon .FiyatHaberVer,.ProductIcon #divKargoBedava {
+    .ProductIcon .UIstekListemeEkle,
+    .ProductIcon #divKritikStok,
+    .ProductIcon .UGelinceHaberVer,
+    .ProductIcon #divTelefonSiparis,
+    .ProductIcon .UFavorilerimeEkle,
+    .ProductIcon #divIndirimliUrun,
+    .ProductIcon .FiyatHaberVer,
+    .ProductIcon #divKargoBedava {
         width: 100%;
         margin: 0;
         padding: 0
     }
-
-    .ProductIcon2 .YorumYazbtnContent a,.ProductIcon2 .TavsiyeEtBtnContent a,.ProductIcon2 .hidden-phone a {
+    .ProductIcon2 .YorumYazbtnContent a,
+    .ProductIcon2 .TavsiyeEtBtnContent a,
+    .ProductIcon2 .hidden-phone a {
         padding: 0 16px;
         display: none
     }
-
     .socialButons {
         display: block
     }
-
     .socialButons div {
         height: 0
     }
-
     .socialButons #___plus_0 {
         height: 0!important
     }
-
     .UTelegram {
         display: none!important
     }
-
     .telegram {
         width: 35px!important;
         height: 35px;
@@ -23569,127 +23100,102 @@ p.ui-widget-content {
         border-radius: 100%!important;
         display: none!important
     }
-
     .telegram i {
         font-size: 15px!important;
         line-height: 35px
     }
-
     .panel-heading {
         margin-bottom: 0!important
     }
-
     .panel-heading a {
         line-height: 35px;
         font-size: 12px
     }
-
     .category-vertical-filters>div {
         margin-bottom: 0!important;
         padding: 0;
         width: 100%!important;
         margin-right: 0!important
     }
-
     .category-vertical-filters>div.div-secenek-2 {
         display: none
     }
-
     .category-vertical-filters .closeb {
         position: static;
         float: left;
         width: 100%;
         margin: 10px 0 0
     }
-
     .category-vertical-filters.top-filters .panel.vertical-top-price-filter {
         width: 100%!important;
         margin: 0!important
     }
-
     .category-vertical-filters.top-filters .panel .panel-heading a:after {
         color: #000!important;
         top: 10px!important
     }
-
     .sortingContent {
         margin-top: 0
     }
-
     .sortingContent li:not(.appliedFilter) {
         padding: 0!important
     }
-
     .sortingContent li>a {
         text-align: center;
         line-height: 58px!important
     }
-
     .sortingContent li a span {
         border: none
     }
-
     .sortingContent .appliedFilter {
         width: 100%;
         text-align: center!important;
         padding: 0!important;
         position: static
     }
-
     .mobilFilterOpenBtn .button {
         padding: 6px 0;
         font-size: 12px;
         font-weight: 600;
         line-height: 20px
     }
-
     .panel-heading a {
         padding-bottom: 0;
         font-size: 16px;
         line-height: 58px;
         text-align: left
     }
-
     .panel-heading {
         margin-bottom: 0!important;
         padding: 0 10px!important
     }
-
     .category-vertical-filters.top-filters .panel.vertical-top-price-filter {
         margin-left: 0!important
     }
-
     .category-vertical-filters.top-filters .panel {
         padding: 2px!important
     }
-
     .category-vertical-filters.top-filters .panel .panel-heading a:after {
         top: 0!important
     }
-
     .categoryTitleText {
         max-width: 100%
     }
-
     .categoryContainer .centerCount {
         width: 100%
     }
-
     .category-vertical-filters .vertical-filter-panel .list-group-item a {
         font-size: 16px!important;
         line-height: 50px!important
     }
-
     .vertical-filter-panel .list-group-item.list-group-item-image {
         background: 0 0!important;
         height: auto!important
     }
-
     .category-vertical-filters.top-filters .list-group.dropdown li {
         margin-bottom: 10px!important;
         border-bottom: 1px solid #c7c7c7
     }
-
     .category-vertical-filters .vertical-filter-panel .list-group-item:before {
         position: absolute;
         right: 0;
@@ -23703,7 +23209,6 @@ p.ui-widget-content {
         text-align: center;
         line-height: 9px
     }
-
     .category-vertical-filters .vertical-filter-panel .list-group-item.selected:before {
         border-color: #666!important;
         background: 0 0!important;
@@ -23712,7 +23217,6 @@ p.ui-widget-content {
         color: #cc1332;
         font-size: 15px
     }
-
     .slider-range {
         background: #dedede;
         height: 5px!important;
@@ -23721,13 +23225,11 @@ p.ui-widget-content {
         border: none;
         float: left
     }
-
     .slider-range .ui-slider-range {
         background: #d4d4d4!important;
         height: 5px!important;
         margin-top: 0!important
     }
-
     .slider-range .ui-slider-handle {
         background: #444!important;
         border-radius: 100%!important;
@@ -23738,7 +23240,6 @@ p.ui-widget-content {
         margin-right: -4px!important;
         top: -5px
     }
-
     .amount {
         color: #000;
         font-size: 12px;
@@ -23750,377 +23251,305 @@ p.ui-widget-content {
         text-align: left;
         margin-bottom: 0
     }
-
     body .filterDeleteContent .appliedFilter {
         margin: 0!important
     }
-
     .brandlistselection {
         border-bottom: none;
         padding: 0;
         height: auto
     }
-
-    .productDetailContainer .categoryTitle,.proCategoryTitle.categoryTitleText {
+    .productDetailContainer .categoryTitle,
+    .proCategoryTitle.categoryTitleText {
         width: 100%;
         padding: 0;
         margin: 0;
         border-bottom: none
     }
-
     .proCategoryTitle.categoryTitleText {
         margin: 10px 0 0;
         display: none
     }
-
     .sortingContent li a span {
         line-height: 30px
     }
-
     .appliedFilter.FiltrelemeUrunAdet span {
         line-height: 30px!important;
         float: none!important
     }
-
     ul.breadcrumb a {
         font-size: 9px!important
     }
-
     ul.breadcrumb a span {
         font-size: 9px!important
     }
-
     ul.breadcrumb li {
         font-size: 0!important;
         float: none!important
     }
-
     ul.breadcrumb li:last-child {
         font-size: 9px!important
     }
-
     ul.breadcrumb li:after {
         font-size: 9px!important
     }
-
     a#linkOncekiSayfa {
         font-size: 8px!important;
         clear: none;
         display: none!important
     }
-
-    #divIlgiliUrunler .modulediscount span,.productModuleItem2 .modulediscount span,.productItem .discountPrice span {
+    #divIlgiliUrunler .modulediscount span,
+    .productModuleItem2 .modulediscount span,
+    .productItem .discountPrice span {
         font-size: 12px!important
     }
-
-    .productModuleItem2 .moduleregular span,#divIlgiliUrunler .moduleregular span,.productItem .regularPrice span {
+    .productModuleItem2 .moduleregular span,
+    #divIlgiliUrunler .moduleregular span,
+    .productItem .regularPrice span {
         font-size: 10px!important
     }
-
-    .productModuleItem2 .moduleregular,#divIlgiliUrunler .moduleregular,.productItem .regularPrice {
+    .productModuleItem2 .moduleregular,
+    #divIlgiliUrunler .moduleregular,
+    .productItem .regularPrice {
         margin-top: 0;
         margin-right: 5px
     }
-
     #divIcerik {
         padding-top: 0!important;
         margin-top: 0
     }
-
     .MagazaSayfa #divIcerik {
         padding: 0 5px
     }
-
     .mycart .sepetTopTutar {
         display: none!important
     }
-
     .mycart .sepetUrun {
         display: none!important
     }
-
     .mycart .sepetTecxt {
         font-size: 0;
         width: 17px;
         float: left
     }
-
     .Magza {
         display: none
     }
-
     .MF {
         top: 18px;
         right: 50px
     }
-
     .MF .mflink a {
         font-size: 0
     }
-
     .AltBanner {
         margin: 5px 0
     }
-
     .CategoryBody .AltBanner {
         display: none
     }
-
     .AltBanner .AltBannerAlan .TextAlanB {
         height: 30px
     }
-
     .AltBanner .AltBannerAlan .TextAlanB>div {
         line-height: 35px
     }
-
     .AltBanner .AltBannerAlan .TextAlanB>div.Five {
         display: none
     }
-
     .AltBanner .AltBannerAlan .TextAlanB>div.One {
         font-size: 10px;
         margin-right: 10px;
         letter-spacing: 3px
     }
-
     .AltBanner .AltBannerAlan .TextAlanB>div.Two {
         font-size: 27px
     }
-
     .AltBanner .AltBannerAlan .TextAlanB>div.Three {
         font-size: 9px;
         margin-left: 0;
         margin-right: 9px;
         margin-top: 7px
     }
-
     .AltBanner .AltBannerAlan .TextAlanB>div.Four {
         font-size: 13px;
         margin-right: 0
     }
-
     #pnlSlider .flex-control-nav {
         right: 5px
     }
-
     #pnlSlider .flex-control-paging li a {
         width: 11px;
         height: 11px
     }
-
     .SliderYan {
         width: 100%!important;
         margin-top: 5px
     }
-
     .SliderYan .ban1 {
         margin-bottom: 1.6%
     }
-
     .BlokTitle span {
         width: auto;
         padding: 0 10px;
         font-size: 10px;
         line-height: 30px
     }
-
     .SliderYonetim {
         padding: 10px;
         margin: 0 0 5px
     }
-
     .SliderYonetim .SliderYonetimAlt {
         padding: 12px
     }
-
     .SliderYonetim2 {
         margin: 0 0 5px;
         padding: 0
     }
-
     .SliderYonetim2 .SliderYonetimAlt {
         padding: 0
     }
-
     .GuvenList {
         padding: 0;
         display: none
     }
-
     .Blok .BlokText {
         right: 10%;
         left: 10%
     }
-
     .Blok .BlokText a {
         font-size: 10px
     }
-
     .ban {
         margin: 0;
         float: left
     }
-
     .ban1 {
         width: 100%;
         margin-right: 0
     }
-
     .ban2 {
         width: 100%;
         margin-right: 0;
         margin-bottom: 5px
     }
-
     .ban2.col-xs-6 {
         width: 100%;
         padding: 0;
         margin-right: 5px
     }
-
     .ban2.col-xs-6:first-child {
         margin-top: 10px
     }
-
     .ban2.col-xs-6:last-child {
         margin-right: 0
     }
-
     .ban2.col-xs-6 .BlokText {
         font-size: 6px;
         line-height: 17px;
         bottom: 10px
     }
-
     .ban2.col-xs-6 .BlokText a {
         font-size: 6px;
         line-height: 17px;
         bottom: 10px
     }
-
     .ban2 .ban1 {
         margin-bottom: 5px
     }
-
     .ban2 .ban1:last-child {
         margin-bottom: 0
     }
-
     .ban3 {
         width: 100%;
         margin-right: 0;
         margin-bottom: 5px
     }
-
     .ban4 {
         width: 100%;
         margin-right: 0;
         margin-bottom: 5px
     }
-
     .ban5 {
         width: 100%;
         margin-right: 0;
         margin-bottom: 5px
     }
-
     .ban6 {
         width: 100%;
         margin-right: 0;
         margin-bottom: 5px
     }
-
     .ban4:last-child {
         margin-bottom: 5px
     }
-
     .ban2:last-child {
         margin-bottom: 0
     }
-
     .ban2>.row>a {
         padding: 0 5px
     }
-
     .BlokTitle2 {
         margin-bottom: 0
     }
-
     .BlokTitle2 span {
         font-size: 17px
     }
-
     .BlokTitle2:after {
         left: 0;
         right: 0;
         background: #000;
         height: 2px
     }
-
     .anasayfatab {
         padding: 10px 0;
         margin-top: 0;
         margin-bottom: 5px
     }
-
     .anasayfatab .anasayfaTabAlt.active {
         padding: 10px 0
     }
-
     ._tabHead {
         padding: 0
     }
-
     ._tabHead li a {
         font-size: 10px;
         line-height: 28px
     }
-
     .sliderBannerContainer .owl-carousel {
         padding: 0
     }
-
     .anasayfatab section.block:after {
         display: none
     }
-
     .anasayfatab section.block:before {
         display: none
     }
-
     .ProductName h1 span:not(#divUrunKodu) {
         font-size: 16px
     }
-
     #divOnyazi * {
         font-size: 16px;
         font-weight: 400;
         color: #4c4c4c
     }
-
     .TopList {
         padding: 10px
     }
-
     .productItem:hover .productImage a:after {
         display: none
     }
-
     .productItem:hover .quickViewIco {
         display: none!important
     }
-
     .favori {
         right: 0;
         bottom: 33px;
         display: block!important
     }
-
     .productItem .IndirimVar .discountPrice span {
         color: #646464
     }
-
     .favori a:before {
         font-size: 15px;
         line-height: 25px;
@@ -24131,11 +23560,9 @@ p.ui-widget-content {
         margin-right: 8px;
         border-radius: 50%
     }
-
     .favori a:after {
         display: none
     }
-
     .discountIcon {
         font-size: 14px;
         width: 29px;
@@ -24143,123 +23570,98 @@ p.ui-widget-content {
         line-height: 23px;
         top: 30px
     }
-
     .newIcon {
         font-size: 8px;
         width: 29px;
         height: 20px;
         top: 53px
     }
-
     .firsatIcon {
         font-size: 6px;
         width: 29px;
         top: 75px;
         line-height: 1.3
     }
-
     .cargoIcon {
         width: 33px;
         height: 33px;
         background-size: 100%;
         top: 15px
     }
-
     .TukendiIco span {
         font-size: 11px
     }
-
     .productItem .productName a {
         font-size: 12px
     }
-
     .productItem .productOnYazi * {
         font-size: 12px!important
     }
-
     .productItem .productOnYazi {
         height: 15px;
         overflow: hidden
     }
-
     .ozelAlan2 span {
         font-size: 9px;
         line-height: 11px;
         margin-top: 1.5px
     }
-
     .ozelAlan2 {
         padding: 0 5px
     }
-
     .ozelAlan2 {
         margin-bottom: 0;
         text-align: left
     }
-
     .ozelAlan2 span:nth-child(2) {
         font-size: 13px;
         top: 1px
     }
-
     #divOzelAlan2 span:nth-child(2) {
         font-size: 23px
     }
-
     #divOzelAlan2 span {
         font-size: 13px;
         text-decoration: underline;
         color: red
     }
-
     #pnlFiyatlar {
         margin-top: 4px
     }
-
     #divKargoBedava {
         float: left;
         margin-left: 15px
     }
-
     .categoryContainer .ProductListContent .productItem {
         margin: 23px 0 0
     }
-
     #pnlSlider {
         width: 100%;
         margin: 0
     }
-
     #pnlSlider .flex-control-nav {
         bottom: 5px
     }
-
     .sliderBannerContainer ul li {
         width: 46.7%
     }
-
     .sliderBannerContainer ul li:nth-child(5n) {
         margin-right: 20px
     }
-
     .categoryContainer {
         padding: 0 5px
     }
-
     .categorydesign {
         display: none
     }
-
     .urunListRel {
         margin-top: 1px!important
     }
-
     .mobilFilterOpenBtn {
         margin-bottom: 0!important;
         background: #f3f3f3a1;
         padding: 12px 0
     }
-
     .filterBlock .mobilFilterOpenBtn .button {
         width: 50%;
         line-height: 23px;
@@ -24271,11 +23673,9 @@ p.ui-widget-content {
         color: #3e3e3e;
         height: 20px
     }
-
     .filterBlock .mobilFilterOpenBtn .button.mobilFilterBtn {
         border-right: .5px solid #ccc!important
     }
-
     .category-vertical-filters.top-filters {
         position: fixed!important;
         right: 0;
@@ -24291,12 +23691,10 @@ p.ui-widget-content {
         overflow-y: auto;
         overflow-x: hidden
     }
-
     .category-vertical-filters.top-filters.active {
         top: 0;
         opacity: 1
     }
-
     .closeb {
         position: absolute;
         bottom: 0;
@@ -24309,11 +23707,9 @@ p.ui-widget-content {
         text-align: center;
         font-size: 16px
     }
-
     .closeb i {
         margin-right: 10px
     }
-
     .category-vertical-filters>div.closeb2 {
         position: absolute;
         left: -35px;
@@ -24323,55 +23719,44 @@ p.ui-widget-content {
         line-height: 35px;
         background: #000
     }
-
     .category-vertical-filters>div.closeb2 i {
         line-height: 35px;
         color: #fff
     }
-
     .PriceList {
         width: 100%
     }
-
     #divSatinAl {
         width: 100%;
         padding-top: 25px
     }
-
     .urunOzellik {
         width: 100%;
         margin-top: 15px
     }
-
     .ProductIcon #divKritikStok .box1 i {
         margin: 0 10px 0 0!important;
         width: auto
     }
-
     .ProductIcon div>a:before {
         width: auto!important;
         margin-right: 10px
     }
-
     #divBenzerUrun {
         margin: 0 0 20px;
         padding: 0 5px
     }
-
     #divBenzerUrun .categoryTitle .bold .satir1 {
         font-size: 17px
     }
-
     #divBenzerUrun .categoryTitle .bold:after {
         left: 0;
         right: 0;
         height: 2px
     }
-
     #divBenzerUrun .owl-carousel {
         padding: 0
     }
-
     .product-social-icon-wrapper {
         width: auto;
         padding: 0;
@@ -24381,7 +23766,6 @@ p.ui-widget-content {
         right: 25px;
         top: 60px
     }
-
     .product-social-icon-wrapper:before {
         margin-bottom: 0;
         width: 33px;
@@ -24390,7 +23774,6 @@ p.ui-widget-content {
         float: right;
         display: none
     }
-
     .product-social-icon-wrapper ul {
         position: relative;
         top: 0;
@@ -24399,11 +23782,9 @@ p.ui-widget-content {
         clear: both;
         padding-top: 15px
     }
-
     .product-social-icon-wrapper ul li {
         width: 35px
     }
-
     .product-social-icon-wrapper .PaylasTit {
         width: 100%;
         height: 44px;
@@ -24417,45 +23798,35 @@ p.ui-widget-content {
         font-size: 0;
         display: block
     }
-
     .product-social-icon-wrapper:hover ul {
         display: none
     }
-
     .product-social-icon-wrapper.active ul {
         display: block
     }
-
     #divUrunEkSecenek {
         width: 100%;
         margin-top: 0
     }
-
     #footer {
         margin-top: 70px
     }
-
     #footer .ticiContainer {
         padding: 0 5px
     }
-
     .FooterMiddle {
         padding-bottom: 0;
         background: #fff;
         text-align: center
     }
-
     .linkler {
         width: 100%;
         padding: 0
     }
-
     .linkler>ul>li {
         padding-right: 0
     }
-
     .linkler>ul>li>a {
-       
         width: 100%;
         display: inline-block;
         float: none;
@@ -24466,22 +23837,18 @@ p.ui-widget-content {
         background-color: #f2f2f2;
         border-bottom: 1px solid #d6d6d6
     }
-
     .linkler>ul>li>a:after {
         content: '\f107';
         font-family: fontawesome;
         margin-left: 10px
     }
-
     .linkler>ul>li>ul {
         display: none;
         padding-top: 10px
     }
-
     .linkler>ul>li>ul>li>a {
         font-size: 13px
     }
-
     .Social {
         width: 100%;
         text-align: center;
@@ -24490,111 +23857,89 @@ p.ui-widget-content {
         padding-bottom: 10px;
         border-bottom: 2px solid #b1b1b1
     }
-
     .Social .Stitle {
         width: 100%;
         text-align: center
     }
-
     .Social ul {
         width: 100%
     }
-
     .Social li {
         float: none!important;
         display: inline-block;
         margin-right: 0!important;
         width: 37px!important
     }
-
     .Social li.Footer-Blog {
         width: 70px!important
     }
-
     .Social li.Footer-Blog img {
         display: block
     }
-
     .FTextAlan {
         display: none
     }
-
     .banksimg {
         display: none
     }
-
     .bankimg {
         display: none
     }
-
     .MusteriHizmet {
         display: none
     }
-
     .Magazalar {
         display: none
     }
-
     #txtbxNewsletterMail {
         background: #eee;
         border: 1px solid #b3b3b3!important
     }
-
     .newsbutton {
         background-color: #eee!important;
         right: 1px;
         top: 1px;
         height: 29px
     }
-
     .copy {
         width: 100%;
         text-align: center;
         margin: 10px 0
     }
-
     .Ebulten {
         width: 100%
     }
-
     .Etitle {
         width: 100%;
         text-align: center;
         font-size: 13px
     }
-
     .Appdiv {
         float: left;
         width: 100%;
         margin: 0;
         padding: 10px 0
     }
-
     .Fsol .copy {
         margin-bottom: 20px
     }
-
     .sepetimBody #header {
         height: auto;
         display: block!important;
         padding: 0;
         border: none
     }
-
     .sepetimBody .BasketPage {
         margin-top: 0!important
     }
-
     .sepetimBody .Basketstep {
         position: relative
     }
-
     #back-to-top a {
         width: 25px;
         height: 25px;
         background-size: 100%
     }
-
     .mobilMenu .Menuicine {
         float: left;
         width: 100%;
@@ -24604,7 +23949,6 @@ p.ui-widget-content {
         border-bottom: 1px solid #d6d6d6;
         display: none
     }
-
     .mobilMenu .Menuicine>a {
         font-size: 15px;
         color: #2d2d2d;
@@ -24614,17 +23958,14 @@ p.ui-widget-content {
         float: left;
         font-family: futura pt book
     }
-
     .mobilMenu .Menuicine>ul {
         float: left;
         width: 100%
     }
-
     .mobilMenu .Menuicine>ul li {
         float: left;
         width: 100%
     }
-
     .mobilMenu .Menuicine>ul li a {
         float: left;
         color: #2d2d2d;
@@ -24633,30 +23974,24 @@ p.ui-widget-content {
         margin-bottom: 10px;
         font-family: futura pt book
     }
-
     .mobilMenu .MusteriHizmet {
         display: block;
         padding-left: 30px;
         margin-top: 20px;
         display: none
     }
-
     .mobilMenu .MusteriHizmet .Mtext a {
         font-size: 11px
     }
-
     .mobilMenu .MusteriHizmet .Mtext a p {
         font-size: 23px
     }
-
     .mobilMenu .MusteriHizmet .Mimg {
         width: 32px
     }
-
     .mobilMenu .MusteriHizmet .Mimg img {
         max-width: 100%
     }
-
     .mobilMenu .Magazalar {
         float: left;
         width: 100%;
@@ -24666,7 +24001,6 @@ p.ui-widget-content {
         display: block;
         margin: 20px 0
     }
-
     .mobilMenu .Magazalar>a {
         float: left;
         width: 100%;
@@ -24676,7 +24010,6 @@ p.ui-widget-content {
         font-family: futura pt demi;
         font-weight: 600
     }
-
     .mobilMenu .Magazalar>a:after {
         content: '\e833';
         font-family: lineariconsfree;
@@ -24685,23 +24018,18 @@ p.ui-widget-content {
         line-height: 51px;
         float: right
     }
-
     #pnlSlider.margin {
         margin-top: 0
     }
-
     #divIcerik.margin {
         margin-top: 75px
     }
-
     .AltBanner.margin {
         margin-top: 75px
     }
-
     .proCategoryTitle.categoryTitleText.margin {
         margin-top: 90px
     }
-
     #header.fixed {
         position: fixed;
         top: 0;
@@ -24709,146 +24037,116 @@ p.ui-widget-content {
         border-bottom: 1px solid #2d2d2d;
         height: 80px
     }
-
     #header.fixed .searchContent {
         display: none
     }
-
-    .CategoryBody #header.fixed,.MagazaSayfa #header.fixed {
+    .CategoryBody #header.fixed,
+    .MagazaSayfa #header.fixed {
         height: 51px;
         border-bottom: none
     }
-
     .ProductBody #header.fixed {
         height: 51px;
         border-bottom: none
     }
-
-    .ProductBody #header .headerContent:after,.CategoryBody #header .headerContent:after,.MagazaSayfa #header .headerContent:after {
+    .ProductBody #header .headerContent:after,
+    .CategoryBody #header .headerContent:after,
+    .MagazaSayfa #header .headerContent:after {
         display: none
     }
-
     #header.fixed #logo .logo {
         display: none
     }
-
     #header.fixed #logo .Mlogo {
         display: block
     }
-
     #header.fixed #logo .fixedLogo {
         display: none
     }
-
     body.margin {
         margin-top: 125px
     }
-
     .sepetimBody .AltBanner {
         display: none
     }
-
     .alisverisedevamet {
         font-size: 11px!important;
         color: #71034e!important
     }
-
     .alisverisedevamet:before {
         margin-right: 5px!important
     }
-
     .alisverisedevamet i.fa.fa-chevron-left {
         font-size: 0
     }
-
     .alisverisedevamet:hover {
         background: 0 0!important;
         border-color: transparent!important
     }
-
     #divUrunEkSecenek .eksecenekLine .left_line {
         margin: 5px 0 10px
     }
-
     #divUrunEkSecenek .eksecenekLine .right_line .size_box {
         margin-bottom: 5px
     }
-
     .detayText {
         padding: 20px 0 0
     }
-
     .bedenTablosu {
         bottom: 73px;
         margin-left: -14px
     }
-
     .Basketstep ul li.onestepsec span {
         font-size: 0
     }
-
     .iletisimContent {
         padding: 10px 15px 0
     }
-
     .pageContainer {
         padding: 10px 15px 0
     }
-
     .iletisimLeft {
         width: 100%!important
     }
-
     .iletisimForm {
         width: 100%!important;
         margin-top: 0!important
     }
-
     #itetisimhtml {
         width: 100%;
         padding-left: 0
     }
-
     .iletisimLeftTelefon .Left {
         font-size: 12px
     }
-
     .iletisimLeftAdres .Left {
         font-size: 12px
     }
-
     .iletisimContent .iletisimLeft .categoryTitle .categoryTitleText {
         font-size: 12px;
         line-height: 25px
     }
-
     .iletisimContent .iletisimLeft .categoryTitle {
         margin-bottom: 0
     }
-
     .iletisimLeftTelefon .Right {
         font-size: 11px!important
     }
-
     .calismasaati {
         margin-bottom: 5px
     }
-
     .iletisimForm .categoryTitle .categoryTitleText {
         margin: 0!important;
         width: 100%!important;
         font-size: 12px!important
     }
-
     .OzelSayfaContent {
         margin-top: 10px
     }
-
     .OzelSayfaContent .OzelSayfaSol {
         width: 100%;
         padding-right: 0
     }
-
     .OzelSayfaContent .OzelSayfaSag {
         width: 100%;
         padding-left: 0;
@@ -24856,25 +24154,20 @@ p.ui-widget-content {
         max-height: 230px;
         padding-right: 0
     }
-
     .OzelSayfaContent .OzelSayfaSag img {
         max-width: 100%
     }
-
     .OzelSayfaContent .OzelSayfaSol>ul>li>a {
         font-size: 12px
     }
-
     .OzelSayfaContent .OzelSayfaSol>ul>li>ul li a {
         line-height: 25px;
         font-size: 11px
     }
-
     .OzelSayfaContent .OzelSayfaSol .canlidestek {
         margin-top: 0;
         margin-bottom: 25px
     }
-
     .OzelSayfaContent .OzelSayfaSol .canlidestek a {
         position: relative;
         float: left;
@@ -24886,15 +24179,12 @@ p.ui-widget-content {
         text-align: right;
         font-weight: 600
     }
-
     .OzelSayfaContent .OzelSayfaSol ul li {
         border-bottom: 1px solid #eee
     }
-
     .OzelSayfaContent .OzelSayfaSol>ul>li {
         position: relative
     }
-
     .OzelSayfaContent .OzelSayfaSol>ul>li .OzelAc {
         position: absolute;
         right: 0;
@@ -24903,42 +24193,34 @@ p.ui-widget-content {
         text-align: center;
         width: 35px
     }
-
     .OzelSayfaContent .OzelSayfaSol>ul>li ul {
         display: none
     }
-
     #searchStore .buton {
         line-height: 45px!important;
         width: 85px!important;
         float: right;
         height: 45px
     }
-
     #searchStore .buton:before {
         line-height: 45px!important;
         margin-left: 0!important
     }
-
     #searchStore input {
         width: calc(100% - 95px)!important
     }
-
     #storeCitys {
         margin-top: 10px!important;
         margin-top: 10px!important
     }
-
     #searchStore {
         padding-left: 0!important;
         padding-right: 0!important;
         margin-top: 0!important
     }
-
     .magazalarContent {
         padding: 0 5px
     }
-
     .mycart .sepetUrunSayisi {
         right: -8px;
         top: -7px;
@@ -24946,23 +24228,18 @@ p.ui-widget-content {
         color: #000;
         line-height: 17px
     }
-
     .SosyalMedyaBanner {
         padding: 0 5px
     }
-
     .SosyalMedyaBanner .sosiContainer .banTek .banIki {
         width: 48%
     }
-
     .firsatIcon:before {
         font-size: 8px!important
     }
-
     .sortingContent:before {
         display: none!important
     }
-
     .bkmExpressBtn {
         width: 60%!important
     }
@@ -24995,10 +24272,9 @@ p.ui-widget-content {
 
 @media screen and (min-width: 768px) and (max-width:1023px) {
     .Butonlar a {
-        width:150px;
+        width: 150px;
         margin: 0 10px
     }
-
     .Butonlar {
         bottom: 30px
     }
@@ -25006,41 +24282,34 @@ p.ui-widget-content {
 
 @media screen and (min-width: 1024px) and (max-width:1271px) {
     .Butonlar a {
-        width:180px;
+        width: 180px;
         margin: 0 25px
     }
 }
 
 @media screen and (max-width: 767px) {
     .OdemeMenu .css-11cvqu4-Global {
-        min-width:300px!important
+        min-width: 300px!important
     }
-
     .OdemeMenu .css-plhoba-Screens {
         padding: 10px!important
     }
-
     .iyz-wrapper .css-134attv-Overlay {
         right: 0!important;
         left: auto!important
     }
-
     .css-11cvqu4-Global a {
         background: 0 0!important
     }
-
     .BasketPage .OdemeMenu ul li:hover .css-11cvqu4-Global a {
         background-color: transparent!important
     }
-
     .BasketPage .OdemeMenu ul li.activeMenu .sozlesmeUyari a {
         background-color: transparent!important
     }
-
     .Butonlar {
         bottom: 30px
     }
-
     .Butonlar a {
         display: inline-block;
         padding: 8px 20px;
@@ -25056,9 +24325,8 @@ p.ui-widget-content {
 
 @media screen and (min-width: 375px) and (max-width:510px) {
     .Butonlar {
-        bottom:10px
+        bottom: 10px
     }
-
     .Butonlar a {
         display: inline-block;
         padding: 8px;
@@ -25074,9 +24342,8 @@ p.ui-widget-content {
 
 @media screen and (max-width: 374px) {
     .Butonlar {
-        bottom:10px
+        bottom: 10px
     }
-
     .Butonlar a {
         display: inline-block;
         padding: 6px 5px;
@@ -25092,8 +24359,6 @@ p.ui-widget-content {
 
 @media screen and (max-width: 560px) {
     .sepetimBody #cbMesafeliSatisSozlesme {
-        margin-top:10px
+        margin-top: 10px
     }
 }
-
-
