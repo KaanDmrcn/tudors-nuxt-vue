@@ -3,6 +3,21 @@
 
 <body class="global_body HomeBody menuAcik" data-language="tr" data-currency="try">
 <form method="post" action="./" >
+<div class="AltBanner">
+<div class="ticiContainer">
+<div class="AltBannerAlan">
+<div class="TextAlanB" style=" height: 55px; ">
+<div class="One" style=" font-size: 21px; letter-spacing: 5px; font-weight: 700; margin-right: 20px; ">OUTLET ÜRÜNLER</div>
+<div class="Two" style=" font-size: 47px; font-weight: 700; ">39,90</div>
+<div class="Three" style=" font-size: 21px; font-weight: 700; text-align: left; margin-right: 15px; line-height: 1; margin-left: 5px; margin-top: 17px; ">'dan</div>
+<div class="Four" style=" font-size: 21px; font-weight: 700; margin-right: 40px; letter-spacing: 5px; ">BAŞLAYAN FİYATLARLA</div>
+<div class="Five" style=" float: left; color: #fff; line-height: 57px; "><a href="/kampanyalar/outlet"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ALIŞVERİŞE BAŞLA&gt; </font></font></a></div>
+</div>
+<div class="HoverAlan">* Belirli ürünler için sınırlı süre geçerli, Renkler ve stoklar tükenmeden<br>
+Tarzını <a href="/kampanyalar/outlet">SATIN AL ...</a></div>
+</div>
+</div>
+</div>
 <div id="divIcerik" class="ticiContainer homeContainer">
 <div id="mainHolder_divBlocks">
 <div class="clear"></div>

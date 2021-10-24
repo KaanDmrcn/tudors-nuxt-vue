@@ -1,6 +1,11 @@
 <template>
+<div>
+<Menu />
+<HomePage />
+<HomePageBottom />
 
-        <HomePage />
+</div>
+        
         
 
 </template>
