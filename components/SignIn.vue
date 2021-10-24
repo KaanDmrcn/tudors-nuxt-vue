@@ -29,6 +29,7 @@
 </template>
 
 
+
 <style>
 .solSagBosluk{
     margin-left: 5%;
