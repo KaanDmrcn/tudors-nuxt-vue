@@ -4,12 +4,7 @@
 <HomePage />
 <HomePageBottom />
 
-<<<<<<< HEAD
-        <SignIn />
-=======
-</div>
-        
->>>>>>> upstream/master
+</div>      
         
 
 </template>
