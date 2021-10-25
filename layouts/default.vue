@@ -1,8 +1,8 @@
 <template>
 <div>
 <Menu />
-<HomePage />
-<HomePageBottom />
+<ProductFilter />
+
 
 </div>
         
