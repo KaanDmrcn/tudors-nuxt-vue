@@ -149,7 +149,7 @@ Kargo Bedava
 <span id="spnTahminiTeslimSuresi" class="right_line" ></span>
 </div></div>
 
-<div id="divUrunEkSecenek" class="Formline BorderNone"><div class="eksecenekLine selectvaryasyon"><span class="left_line">RENK</span><span class="center_line">:</span><span class="right_line"><select name="ddlEkSecenek0" class="eksecenekSelect"><option value="-1">Seçiniz</option><option tipid="2" value="46">Kahve</option></select></span></div><div class="eksecenekLine kutuluvaryasyon"><span class="left_line"><a href="https://api.whatsapp.com/send?phone=908503338377&amp;text=Merhaba," style=" font-size: 13px; color: green; ">Bedeninizi Danışın <i class="fa fa-whatsapp"></i></a></span><span class="center_line">:</span><span class="right_line"><span class="size_box nostok" data-stock="0" rel="73" tipid="3">XS<span class="btnnostok " style="display:none;" onclick="varyasyonGelinceHaberVer(this)" data-kart-id="23393" data-urun-id="84482" data-eksecenek-id="0">GELİNCE HABERİN <br> OLSUN <i class="fa fa-circle-thin" aria-hidden="true"></i></span></span><span class="size_box" data-stock="10" rel="71" tipid="3">S</span><span class="size_box" data-stock="11" rel="70" tipid="3">M</span><span class="size_box" data-stock="11" rel="69" tipid="3">L</span><span class="size_box" data-stock="7" rel="72" tipid="3">XL</span><span class="size_box" data-stock="3" rel="74" tipid="3">XXL</span></span></div></div>
+<div id="divUrunEkSecenek" class="Formline BorderNone"><div class="eksecenekLine selectvaryasyon"><span class="left_line">RENK</span><span class="center_line">:</span><span class="right_line"><select name="ddlEkSecenek0" class="eksecenekSelect"><option value="-1">Seçiniz</option><option tipid="2" value="46">Kahve</option></select></span></div><div class="eksecenekLine kutuluvaryasyon"><span class="left_line"><a href="https://api.whatsapp.com/send?phone=908503338377&amp;text=Merhaba," style=" font-size: 13px; color: green; ">Bedeninizi Danışın  <img style="width: 12px;" src="https://www.citypng.com/public/uploads/preview/green-whatsapp-logo-phone-call-icon-11581342743eu6uyok0er.png"></a></span><span class="center_line">:</span><span class="right_line"><span class="size_box nostok" data-stock="0" rel="73" tipid="3">XS<span class="btnnostok " style="display:none;" onclick="varyasyonGelinceHaberVer(this)" data-kart-id="23393" data-urun-id="84482" data-eksecenek-id="0">GELİNCE HABERİN <br> OLSUN <i class="fa fa-circle-thin" aria-hidden="true"></i></span></span><span class="size_box" data-stock="10" rel="71" tipid="3">S</span><span class="size_box" data-stock="11" rel="70" tipid="3">M</span><span class="size_box" data-stock="11" rel="69" tipid="3">L</span><span class="size_box" data-stock="7" rel="72" tipid="3">XL</span><span class="size_box" data-stock="3" rel="74" tipid="3">XXL</span></span></div></div>
 
 <div id="divSatinAl" class="buybutton" >
 
@@ -165,7 +165,7 @@ Kargo Bedava
 <input type="button" value="Sepete Ekle" class="Addtobasket button btnAddBasketOnDetail">
 </div><div class="UFavorilerimeEkle">
 <a id="aFavoriEkleBtn" onclick="javascript:FavoriUrunDetay();" data-action="1" title="Favorilere Ekle" class="tipL"  data-original-title="Favorilere Ekle">
-<span class="box1"><i class="fa fa-heart" aria-hidden="true"></i>Favorilere Ekle</span>
+<span class="box1"> <img class="fa fa-heart" style="margin-top: 10px; width: 25px;" src="https://icons-for-free.com/iconfiles/png/512/heart+like+love+valentine+icon-1320084901929215407.png" > Favorilere Ekle</span>
 </a>
 </div><div class="buyfast">
 <input id="btnHemenAl" type="button" class="buyfastbutton button" value="Hemen Al" >
@@ -220,6 +220,19 @@ Tüm Kombini Satın Al
 </a>
 </div>
 </div>
+<div style="margin-top: 12px;">
+<td>
+     <p style="font-weight:bold; text-decoration: underline; font-size:12px;">ÜRÜN AÇIKLAMASI</p>
+</td>
+<td>
+     <p style="font-weight:bold; font-size:12px;">&nbsp;&nbsp; YORUMLAR</p>
+</td>
+   
+    
+
+
+</div>
+
 </div>
 
 

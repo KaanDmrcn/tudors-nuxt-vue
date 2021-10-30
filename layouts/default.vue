@@ -2,6 +2,7 @@
 <div>
 <Menu />
 <ProductDetail />
+<SimilarProducts />
 
 
 </div>
