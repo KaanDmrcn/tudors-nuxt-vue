@@ -1,7 +1,8 @@
 <template>
 <div>
 <Menu />
-<Carousel />
+<ProductDetail />
+<SimilarProducts />
 
 
 </div>      

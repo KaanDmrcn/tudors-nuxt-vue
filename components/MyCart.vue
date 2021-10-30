@@ -106,14 +106,14 @@
                                             </div>
                                         </div>
                                         <div class="sepetItemB sepetItemB5">
-                                            <a id="mainHolder_ucSepetim_rptSepet_lnkBtnUrunSil_0" onclick="return fncUrunSilFav(this,80297,0,false);"  class="sepet-sil" data-productid="22117" data-variantid="80297" rel="0" href="javascript:__doPostBack('ctl00$mainHolder$ucSepetim$rptSepet$ctl00$lnkBtnUrunSil','')"></a>
+                                             <img style="width: 12px;" src="https://www.pinclipart.com/picdir/big/538-5385185_grey-cross-icon-png-clipart.png">
                                         </div>
                                     </div>
                                 
                         </div>
                     </div>
                     <div class="sepetListAlt">
-                        <div id="mainHolder_ucSepetim_divUcretsizKargoUlasim" class="hedefSatisContent">
+                        <div style="margin-top: 10px; color: brown;" >
                             Ücretsiz kargo hakkı kazanmanıza ₺49,01 kaldı!
                         </div>
                         
@@ -259,5 +259,4 @@
     font-family: josefin sans, sans-serif !important;
     text-align: center;
 }        
-
 </style>
