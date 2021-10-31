@@ -87,48 +87,33 @@
           </a>
         </span>
       </div>
-      <div class="userWrapper telDiv">
-        <div class="iti iti--allow-dropdown">
-          <div class="iti__flag-container">
-            <div
-              class="iti__selected-flag"
-              role="combobox"
-              aria-owns="iti-0__country-listbox"
-              aria-expanded="false"
-              tabindex="0"
-              title="Turkey (Türkiye): +90"
-              aria-activedescendant="iti-0__item-tr-preferred"
-            >
-              <div class="iti__flag iti__tr"></div>
-              <div class="iti__arrow"></div>
-            </div>
-            <ul
-              class="iti__country-list iti__hide"
-              role="listbox"
-            >
-              <li
-                class="iti__country iti__preferred iti__active"
-                tabindex="-1"
-                role="option"
-                data-dial-code="90"
-                data-country-code="tr"
-                aria-selected="true"
-              >
-                <div class="iti__flag-box">
-                  <div class="iti__flag iti__tr"></div>
-                </div>
-                <span class="iti__country-name">Turkey (Türkiye)</span
-                ><span class="iti__dial-code">+90</span>
-              </li>
-            </ul>
-          </div>
-          <input
-            class="textbox ticiTelInput"
-            name="txtQuickTel"
-            type="tel"
-            autocomplete="off"
-          />
-        </div>
+      <div>
+        <html lang="en">
+ <head>
+   <title>International telephone input</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <link rel="stylesheet" href="styles.css" />
+   <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+   />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+ </head>
+ <body>
+     <div style="float:left;" class="container">
+ <form id="login" onsubmit="process(event) ">
+   <input id="phone" placeholder="+90"  type="tel" name="phone" style="width: 1680px;height:45px;"/>
+ </form>
+</div>
+ </body>
+ <script>
+   const phoneInputField = document.querySelector("#phone");
+   const phoneInput = window.intlTelInput(phoneInputField, {
+     utilsScript:
+       "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+   });
+ </script>
+</html>
       </div>
       <div class="userMail">
         <input type="checkbox" /><label for="chkMailPermission"
@@ -172,7 +157,62 @@
 
 
 <style scoped>
+body {
+  font-family: Helvetica, sans-serif;
+}
 
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+#phone, .btn {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  color: #fff;
+  background-color: #428BCA;
+  border-color: #357EBD;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.btn:focus, .btn:hover {
+  background-color: #3276B1;
+  border-color: #285E8E;
+}
+
+.btn:active {
+  box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+}
+
+.alert {
+  padding: 15px;
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.alert-info {
+  border-color: #bce8f1;
+  color: #31708f;
+  background-color: #d9edf7;
+}
+
+.alert-error {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
 .userWrapper {
     margin: 0;
     margin-bottom: 10px;
