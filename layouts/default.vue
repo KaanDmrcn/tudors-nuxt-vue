@@ -1,8 +1,7 @@
 <template>
 <div>
-<Menu />
-<ProductDetail />
-<SimilarProducts />
+<SignUp />
+
 
 
 </div>      
