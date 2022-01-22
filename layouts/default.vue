@@ -4,8 +4,7 @@
 
 
 
-</div>
-        
+</div>      
         
 
 </template>
